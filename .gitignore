@@ -1,0 +1,13 @@
+# IDEA
+/*.iml
+/*.ipr
+/*.iws
+/.idea
+/out
+
+# Gradle
+/.gradle
+/build
+
+# Vim
+*.sw?

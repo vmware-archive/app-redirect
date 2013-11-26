@@ -1,0 +1,19 @@
+---
+applications:
+
+- name: redirect-blue
+  memory: 256M
+  instances: 1
+  host: download-redirect-blue
+  domain: cfapps.io
+  path: build/libs/redirect.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+
+- name: redirect-green
+  memory: 256M
+  instances: 1
+  host: download-redirect-green
+  domain: cfapps.io
+  path: build/libs/redirect.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+
