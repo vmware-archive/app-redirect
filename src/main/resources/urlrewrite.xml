@@ -133,4 +133,162 @@
     <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/erlang/R15B02/Erlang_R15B02_open_source.tar.gz</to>
   </rule>
   <!-- END: rabbitmq -->
+<!-- BEGIN: tcserver -->
+  <rule>
+    <name>tcs_std_targz</name>
+    <note>Pivotal tc Server 2.9.4 Standard Edition Runtime (tar.gz)</note>
+    <from>^tcs_std_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4.RELEASE.tar.gz</to>
+  </rule>
+  <rule>
+    <name>tcs_std_zip</name>
+    <note>Pivotal tc Server 2.9.4 Standard Edition Runtime (zip)</note>
+    <from>^tcs_std_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4.RELEASE.zip</to>
+  </rule>
+  <rule>
+    <name>tcs_std_rpm</name>
+    <note>Pivotal tc Server 2.9.4 Standard Edition Runtime (rpm)</note>
+    <from>^tcs_std_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4-RELEASE.noarch.rpm</to>
+  </rule>
+  <rule>
+    <name>tcs_dev_targz</name>
+    <note>Pivotal tc Server 2.9.4 Developer Edition Runtime (tar.gz)</note>
+    <from>^tcs_dev_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/vfabric-tc-server-developer-2.9.4.RELEASE.tar.gz</to>
+  </rule>
+  <rule>
+    <name>tcs_dev_zip</name>
+    <note>Pivotal tc Server 2.9.4 Developer Edition Runtime (zip)</note>
+    <from>^tcs_dev_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/vfabric-tc-server-developer-2.9.4.RELEASE.zip</to>
+  </rule>
+  <rule>
+    <name>sig_agent_zip</name>
+    <note>Spring Insight Operations 1.9.2.SR3 Agent</note>
+    <from>^sig_agent_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/springinsight/1.9.2.SR3/insight-vfabric-tc-server-agent-1.9.2.SR3.zip</to>
+  </rule>
+  <rule>
+    <name>sig_dash_zip</name>
+    <note>Spring Insight Operations 1.9.2.SR3 Dashboard</note>
+    <from>^sig_dash_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/springinsight/1.9.2.SR3/insight-vfabric-tc-server-dashboard-1.9.2.SR3.zip</to>
+  </rule>
+  <rule>
+    <name>sig_devkit_zip</name>
+    <note>Spring Insight Operations 1.9.2.SR3 Developer Kit</note>
+    <from>^sig_devkit_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/springinsight/1.9.2.SR3/insight-developer-kit-1.9.2.SR3.zip</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_zip</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Windows (64 bit)</note>
+    <from>^hq_svr_agent_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-x86-64-win-5.7.1.zip</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_targz</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Linux (64 bit)</note>
+    <from>^hq_svr_agent_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-x86-64-linux-5.7.1a.tar.gz</to>
+  </rule>
+  <rule>
+    <name>em4j_targz</name>
+    <note>VMware vFabric EM4J 1.3.0 distribution including balloon agent and CGC (tar.gz)</note>
+    <from>^em4j_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/vfabric-suite/em4j/1.3.0/em4j-1.3.0.tar.gz</to>
+  </rule>
+  <rule>
+    <name>em4j_zip</name>
+    <note>VMware vFabric EM4J 1.3.0 distribution including balloon agent and CGC (zip)</note>
+    <from>^em4j_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/vfabric-suite/em4j/1.3.0/em4j-1.3.0.zip</to>
+  </rule>
+  <rule>
+    <name>em4j_plugin_targz</name>
+    <note>VMware vFabric EM4J 1.3.0 Console UI Plug-In for vSphere Web Client 5.1 (tar.gz)</note>
+    <from>^em4j_plugin_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/vfabric-suite/em4j/1.3.0/em4j-plugin-1.3.0-vsphere-wc-5.1-bin.tar.gz</to>
+  </rule>
+  <rule>
+    <name>em4j_plugin_zip</name>
+    <note>VMware vFabric EM4J 1.3.0 Console UI Plug-In for vSphere Web Client 5.1 (zip)</note>
+    <from>^em4j_plugin_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/vfabric-suite/em4j/1.3.0/em4j-plugin-1.3.0-vsphere-wc-5.1-bin.zip</to>
+  </rule>
+  <rule>
+    <name>em4j_tcscript_zip</name>
+    <note>VMware vFabric EM4J 1.3.0 Tomcat integration script</note>
+    <from>^em4j_tcscript_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/vfabric-suite/em4j/1.3.0/em4j-for-apache-tomcat-1.3.0-dist.zip</to>
+  </rule>
+  <rule>
+    <name>tcs_hq_plug</name>
+    <note>Pivotal tc Server 2.9.4 plug-in for VMware Hyperic</note>
+    <from>^tcs_hq_plug$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/springsource-tc-server-hq-plugin-2.9.4.RELEASE.zip</to>
+  </rule>
+  <rule>
+    <name>tcs_std_tp_osl</name>
+    <note>Pivotal tc Server Standard Edition 2.9.4 Open Source Licenses</note>
+    <from>^tcs_std_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/vfabric-tc-server-standard-open-source-licenses-2.9.4.RELEASE.txt</to>
+  </rule>
+  <rule>
+    <name>tcs_std_tp_code</name>
+    <note>Pivotal tc Server Standard Edition 2.9.4 Open Source Code</note>
+    <from>^tcs_std_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/vfabric-tc-server-standard-open-source-source-2.9.4.RELEASE.tar.gz</to>
+  </rule>
+  <rule>
+    <name>tcs_dev_tp_osl</name>
+    <note>Pivotal tc Server Developer Edition 2.9.4 Open Source Licenses</note>
+    <from>^tcs_dev_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/vfabric-tc-server-developer-open-source-licenses-2.9.4.RELEASE.txt</to>
+  </rule>
+  <rule>
+    <name>tcs_dev_tp_code</name>
+    <note>Pivotal tc Server Developer Edition 2.9.4 Open Source Code</note>
+    <from>^tcs_dev_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/vfabric-tc-server-developer-open-source-source-2.9.4.RELEASE.tar.gz</to>
+  </rule>
+  <rule>
+    <name>em4j_tp_osl</name>
+    <note>VMware vFabric EM4J Console UI Plug-In 1.3.0 Open Source Licenses</note>
+    <from>^em4j_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/vfabric-suite/em4j/1.3.0/open-source-licenses-em4j-1.3.txt</to>
+  </rule>
+  <rule>
+    <name>sig_tp_osl</name>
+    <note>Spring Insight Operations 1.9.2.SR3 Open Source Licenses</note>
+    <from>^sig_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/springinsight/1.9.2.SR3/open_source_license-s2-insight-1.9.2.SR3.txt</to>
+  </rule>
+  <rule>
+    <name>sig_tp_code</name>
+    <note>Spring Insight Operations 1.9.2.SR3 Open Source Code</note>
+    <from>^sig_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/springinsight/1.9.2.SR3/open_source_source-s2-insight-1.9.2.SR3.tar.gz</to>
+  </rule>
+  <rule>
+    <name>hq_tp_osl</name>
+    <note>VMware vFabric Hyperic 5.7.1 Open Source Licenses </note>
+    <from>^hq_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/vfabric-suite/hyperic/5.7.1/open_source_license_Hyperic_HQ5.7.1GA-EnterpriseVersion.txt</to>
+  </rule>
+  <rule>
+    <name>hq_tp_code</name>
+    <note>VMware vFabric Hyperic 5.7.1 Open Source Code</note>
+    <from>^hq_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-571-OSS.gz</to>
+  </rule>
+  <rule>
+    <name>tcs_hq_plug_tp_code</name>
+    <note>Pivotal tc Server 2.9.4 plug-in for VMware Hyperic Open Source Code</note>
+    <from>^tcs_hq_plug_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/springsource-tc-server-hq-plugin-open-source-source-2.9.4.RELEASE.tar.gz</to>
+  </rule>
+  <!-- END: tcserver -->
 </urlrewrite>
