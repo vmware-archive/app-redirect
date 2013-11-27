@@ -1,67 +1,136 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
-        "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
-<!--
-    Configuration file for UrlRewriteFilter. See: http://www.tuckey.org/urlrewrite/
-    http://localhost:8080/rules (only works when running locally) -->
-<urlrewrite use-query-string="true">
-    <rule>
-        <name>tc Server Developer Edition tar.gz</name>
-        <from>/tcserver/vfabric-tc-server-developer.tar.gz</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-developer-2.9.4.RELEASE.tar.gz</to>
-    </rule>
-    <rule>
-        <name>tc Server Developer Edition zip</name>
-        <from>/tcserver/vfabric-tc-server-developer.zip</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-developer-2.9.4.RELEASE.zip</to>
-    </rule>
-    <rule>
-        <name>tc Server Standard Edition tar.gz</name>
-        <from>/tcserver/vfabric-tc-server-standard.tar.gz</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4.RELEASE.tar.gz</to>
-    </rule>
-    <rule>
-        <name>tc Server Standard Edition zip</name>
-        <from>/tcserver/vfabric-tc-server-standard.zip</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4.RELEASE.zip</to>
-    </rule>
-    <rule>
-        <name>tc Server Standard Edition rpm</name>
-        <from>/tcserver/vfabric-tc-server-standard.noarch.rpm</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4-RELEASE.noarch.rpm</to>
-    </rule>
-    <rule>
-        <name>SpringInsight Agent zip</name>
-        <from>/springinsight/insight-vfabric-tc-server-agent.zip</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/springinsight/1.9.2.SR3/insight-vfabric-tc-server-agent-1.9.2.SR3.zip</to>
-    </rule>
-    <rule>
-        <name>SpringInsight Dashboard zip</name>
-        <from>/springinsight/insight-vfabric-tc-server-dashboard.zip</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/springinsight/1.9.2.SR3/insight-vfabric-tc-server-dashboard-1.9.2.SR3.zip</to>
-    </rule>
-    <rule>
-        <from>/tcserver/vfabric-tc-server-standard-open-source-licenses.txt</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-open-source-licenses-2.9.4.RELEASE.txt</to>
-    </rule>
-    <rule>
-        <from>/tcserver/vfabric-tc-server-standard-open-source-source.tar.gz</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-open-source-source-2.9.4.RELEASE.tar.gz</to>
-    </rule>
-    <rule>
-        <from>/tcserver/vfabric-tc-server-developer-open-source-licenses.txt</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-developer-open-source-licenses-2.9.4.RELEASE.txt</to>
-    </rule>
-    <rule>
-        <from>/tcserver/vfabric-tc-server-developer-open-source-source.tar.gz</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-developer-open-source-source-2.9.4.RELEASE.tar.gz</to>
-    </rule>
-    <rule>
-        <from>/springinsight/open_source_license-s2-insight.txt</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/springinsight/1.9.2.SR3/open_source_license-s2-insight-1.9.2.SR3.txt</to>
-    </rule>
-    <rule>
-        <from>/springinsight/open_source_source-s2-insight.tar.gz</from>
-        <to type="temporary-redirect" last="true">http://download.gopivotal.com/springinsight/1.9.2.SR3/open_source_source-s2-insight-1.9.2.SR3.tar.gz</to>
-    </rule>
+                            "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+
+<!-- Configuration file for UrlRewriteFilter. See: http://www.tuckey.org/urlrewrite/ -->
+
+<urlrewrite>
+  <!-- BEGIN: rabbitmq -->
+  <rule>
+    <name>rmq_svr_exe</name>
+    <note>Pivotal RabbitMQ 3.2.1 Server for Windows</note>
+    <from>^rmq_svr_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/3.2.1/vfabric-rabbitmq-server-3.2.1.exe</to>
+  </rule>
+  <rule>
+    <name>rmq_svr_targz</name>
+    <note>Pivotal RabbitMQ 3.2.1 Server for Linux</note>
+    <from>^rmq_svr_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/3.2.1/vfabric-rabbitmq-server-3.2.1.tar.gz</to>
+  </rule>
+  <rule>
+    <name>rmq_svr_32_rpm</name>
+    <note>Pivotal RabbitMQ 3.2.1 Server RPM for Linux (32 bit)</note>
+    <from>^rmq_svr_32_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/3.2.1/vfabric-rabbitmq-server-3.2.1-3.i686.rpm</to>
+  </rule>
+  <rule>
+    <name>rmq_svr_64_rpm</name>
+    <note>Pivotal RabbitMQ 3.2.1 Server RPM for Linux (64 bit)</note>
+    <from>^rmq_svr_64_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/3.2.1/vfabric-rabbitmq-server-3.2.1-3.x86_64.rpm</to>
+  </rule>
+  <rule>
+    <name>rmq_java_exe</name>
+    <note>Pivotal RabbitMQ 3.2.1 Java Client for Windows</note>
+    <from>^rmq_java_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/3.2.1/vfabric-rabbitmq-java-client-3.2.1.exe</to>
+  </rule>
+  <rule>
+    <name>rmq_java_targz</name>
+    <note>Pivotal RabbitMQ 3.2.1 Java Client for Linux</note>
+    <from>^rmq_java_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/3.2.1/vfabric-rabbitmq-java-client-bin-3.2.1.tar.gz</to>
+  </rule>
+  <rule>
+    <name>rmq_java_rpm</name>
+    <note>Pivotal RabbitMQ 3.2.1 Java Client RPM for Linux</note>
+    <from>^rmq_java_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/3.2.1/vfabric-rabbitmq-java-client-bin-3.2.1-3.noarch.rpm</to>
+  </rule>
+  <rule>
+    <name>rmq_dotnet_exe</name>
+    <note>Pivotal RabbitMQ 3.2.1 .NET Client for Windows</note>
+    <from>^rmq_dotnet_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/3.2.1/vfabric-rabbitmq-dotnet-client-3.2.1.exe</to>
+  </rule>
+  <rule>
+    <name>rjms_client_targz</name>
+    <note>JMS client and server plug-in 1.1.1 for Pivotal RabbitMQ 3.2.1 (tar.gz)</note>
+    <from>^rjms_client_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq-jms/1.1.1/rabbitmq-jms-package-1.1.1-client-and-plugin.tar.gz</to>
+  </rule>
+  <rule>
+    <name>rjms_client_zip</name>
+    <note>JMS client and server plug-in 1.1.1 for Pivotal RabbitMQ 3.2.1 (zip)</note>
+    <from>^rjms_client_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq-jms/1.1.1/rabbitmq-jms-package-1.1.1-client-and-plugin.zip</to>
+  </rule>
+  <rule>
+    <name>rjms_refapp_targz</name>
+    <note>JMS reference application 1.1.1 for Pivotal RabbitMQ 3.2.1 (tar.gz)</note>
+    <from>^rjms_refapp_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq-jms/1.1.1/rabbitmq-jms-package-1.1.1-reference-app.tar.gz</to>
+  </rule>
+  <rule>
+    <name>rjms_refapp_zip</name>
+    <note>JMS reference application 1.1.1 for Pivotal RabbitMQ 3.2.1 (zip)</note>
+    <from>^rjms_refapp_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq-jms/1.1.1/rabbitmq-jms-package-1.1.1-reference-app.zip</to>
+  </rule>
+  <rule>
+    <name>erl_32_el5</name>
+    <note>Erlang R15B02 RPM for RHEL 5 (32 bit)</note>
+    <from>^erl_32_el5$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el5.i386.rpm</to>
+  </rule>
+  <rule>
+    <name>erl_64_el5</name>
+    <note>Erlang R15B02 RPM for RHEL 5 (64 bit)</note>
+    <from>^erl_64_el5$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el5.x86_64.rpm</to>
+  </rule>
+  <rule>
+    <name>erl_32_el6</name>
+    <note>Erlang R15B02 RPM for RHEL 6 (32 bit)</note>
+    <from>^erl_32_el6$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el6.i386.rpm</to>
+  </rule>
+  <rule>
+    <name>erl_64_el6</name>
+    <note>Erlang R15B02 RPM for RHEL 6 (64 bit)</note>
+    <from>^erl_64_el6$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el6.x86_64.rpm</to>
+  </rule>
+  <rule>
+    <name>rmq_tp_osl</name>
+    <note>Pivotal RabbitMQ 3.2.1 Open Source Licenses</note>
+    <from>^rmq_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/3.2.1/RabbitMQ_3.2.1_OSL.txt</to>
+  </rule>
+  <rule>
+    <name>rmq_tp_code</name>
+    <note>Pivotal RabbitMQ 3.2.1 Open Source Code</note>
+    <from>^rmq_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/3.2.1/open_source_tarball-vF-RabMQ-3.2-FINAL.zip</to>
+  </rule>
+  <rule>
+    <name>rjms_tp_osl</name>
+    <note>JMS client 1.1.1 for Pivotal RabbitMQ 3.2.1 Open Source Licenses</note>
+    <from>^rjms_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq-jms/1.1.1/open_source_licenses-Rabbit-JMS-1.1.1.txt</to>
+  </rule>
+  <rule>
+    <name>erl_tp_osl</name>
+    <note>Erlang R15B02 Open Source Licenses</note>
+    <from>^erl_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/erlang/R15B02/Erlang_R15B02_OSL.txt</to>
+  </rule>
+  <rule>
+    <name>erl_tp_code</name>
+    <note>Erlang R15B02 Open Source Code</note>
+    <from>^erl_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/rabbitmq/erlang/R15B02/Erlang_R15B02_open_source.tar.gz</to>
+  </rule>
+  <!-- END: rabbitmq -->
 </urlrewrite>
