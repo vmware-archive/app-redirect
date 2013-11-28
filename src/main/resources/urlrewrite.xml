@@ -49,7 +49,7 @@
     <name>appdir_tp_code</name>
     <note>VMware vFabric Application Director 5.0.1 Open Source Code</note>
     <from>^/appdir_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/open_source_license_vF-AppDir501GA.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/VMware_vFabric_Application_Director_5.0_Application_Layer_open_source.zip</to>
   </rule>
   <rule>
     <name>appdir_tp_sles11</name>
@@ -81,25 +81,25 @@
     <name>chorus_sh_el</name>
     <note>Pivotal Chorus 2.5.1 Red Hat Enterprise Linux 5.5, 5.7, 6.2 (64 bit)</note>
     <from>^/chorus_sh_el$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/Greenplum_Chorus/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
   </rule>
   <rule>
     <name>chorus_sh_cent</name>
     <note>Pivotal Chorus 2.5.1 CentOS 5.5, 5.7, 6.2 (64 bit)</note>
     <from>^/chorus_sh_cent$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/Greenplum_Chorus/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
   </rule>
   <rule>
     <name>chorus_sh_suse</name>
     <note>Pivotal Chorus 2.5.1 SuSE Linux Enterprise Server 11 (64 bit)</note>
     <from>^/chorus_sh_suse$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/Greenplum_Chorus/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
   </rule>
   <rule>
     <name>chorus_sh_osx</name>
     <note>Pivotal Chorus 2.5.1 OSX Lion x86_64</note>
     <from>^/chorus_sh_osx$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/Greenplum_Chorus/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
   </rule>
   <!-- END: chorus -->
   <!-- BEGIN: em4j -->
@@ -301,37 +301,37 @@
     <name>gfxd_nonicm</name>
     <note>Pivotal GemFire XD for Pivotal HD for non ICM installations</note>
     <from>^/gfxd_nonicm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/PRTS-1.0.0-8-bin.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/PRTS-1.0.0-8-bin.tar.gz</to>
   </rule>
   <rule>
     <name>gfxd_icm</name>
     <note>Pivotal GemFire XD for Pivotal HD for use with ICM</note>
     <from>^/gfxd_icm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/PRTS-1.0.0-8.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/PRTS-1.0.0-8.tar.gz</to>
   </rule>
   <rule>
     <name>gfxd_odbc_targz</name>
     <note>Pivotal GemFire XD ODBC driver (tar.gz)</note>
     <from>^/gfxd_odbc_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/Pivotal_GemFireXD_05Beta_b44310_ODBC.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/Pivotal_GemFireXD_05Beta_b44310_ODBC.tar.gz</to>
   </rule>
   <rule>
     <name>gfxd_odbc_zip</name>
     <note>Pivotal GemFire XD ODBC driver (zip)</note>
     <from>^/gfxd_odbc_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/Pivotal_GemFireXD_05Beta_b44310_ODBC.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/Pivotal_GemFireXD_05Beta_b44310_ODBC.zip</to>
   </rule>
   <rule>
     <name>gfxd_tp_osl</name>
     <note>Pivotal GemFire XD Open Source Licenses</note>
     <from>^/gfxd_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/open_source_licenses-Pivotal_GemFireXD_0.5.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/open_source_licenses-Pivotal_GemFireXD_0.5.txt</to>
   </rule>
   <rule>
     <name>gfxd_tp_code</name>
     <note>Pivotal GemFire XD Open Source Code</note>
     <from>^/gfxd_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/Pivotal_GemFireXD_05Beta_b44310_OSS.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/Pivotal_GemFireXD_05Beta_b44310_OSS.zip</to>
   </rule>
   <!-- END: gemfirexd -->
   <!-- BEGIN: gpdb -->
@@ -549,31 +549,31 @@
     <name>lic_svr_exe</name>
     <note>VMware vFabric License Server  for Windows</note>
     <from>^/lic_svr_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vFabricSuite/5.3/LicenseServer_/vFabric_License_Server-.2.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/licenseserver//vFabric_License_Server-.2.exe</to>
   </rule>
   <rule>
     <name>lic_svr_rpm</name>
     <note>VMware vFabric License Server  for RHEL 6 (64 bit)</note>
     <from>^/lic_svr_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vFabricSuite/5.3/LicenseServer_/vfabric-license-server--27.noarch.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/licenseserver//vfabric-license-server--27.noarch.rpm</to>
   </rule>
   <rule>
     <name>lic_chk</name>
     <note>VMware vFabric License Check Tool </note>
     <from>^/lic_chk$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vFabricSuite/5.3/LicenseServer_/vfabric-vfchksn-.2-bin.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/licenseserver//vfabric-vfchksn-.2-bin.zip</to>
   </rule>
   <rule>
     <name>lic_tp_osl</name>
     <note>VMware vFabric License Server  Open Source Licenses</note>
     <from>^/lic_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vFabricSuite/5.3/LicenseServer_/open_source_licenses-vF-License-Server-.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/licenseserver//open_source_licenses-vF-License-Server-.txt</to>
   </rule>
   <rule>
     <name>lic_tp_code</name>
     <note>VMware vFabric License Server  Open Source Code</note>
     <from>^/lic_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vFabricSuite/5.3/LicenseServer_/open_source_tarball-vF-License-Server-.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/licenseserver//open_source_tarball-vF-License-Server-.zip</to>
   </rule>
   <!-- END: licenseserver -->
   <!-- BEGIN: postgres -->
