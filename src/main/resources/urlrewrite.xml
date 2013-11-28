@@ -1,10 +1,719 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
-                            "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
-
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN" "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
 <!-- Configuration file for UrlRewriteFilter. See: http://www.tuckey.org/urlrewrite/ -->
-
 <urlrewrite>
+  <!-- BEGIN: appdirector -->
+  <rule>
+    <name>appdir_readme</name>
+    <note>Read Me.txt file for vMware vFabric Application Director 5.0.1 Release</note>
+    <from>^/appdir_readme$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/ApplicationDirector_Readme_TF.txt</to>
+  </rule>
+  <rule>
+    <name>appdir_lic_key</name>
+    <note>VMware vFabric Application Director 5.0.1 evaluation license key</note>
+    <from>^/appdir_lic_key$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/ApplicationDirector-5.0.1.0-license-key.txt</to>
+  </rule>
+  <rule>
+    <name>appdir_mf</name>
+    <note>Manifest for VMware vFabric Application Director 5.0.1</note>
+    <from>^/appdir_mf$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/ApplicationDirector-5.0.1.0-943241_OVF10.mf</to>
+  </rule>
+  <rule>
+    <name>appdir_vmdk</name>
+    <note>vmdk file for VMware vFabric Application Director 5.0.1</note>
+    <from>^/appdir_vmdk$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/ApplicationDirector-5.0.1.0-943241-system.vmdk</to>
+  </rule>
+  <rule>
+    <name>appdir_ovf</name>
+    <note>ovf file for VMware vFabric Application Director 5.0.1</note>
+    <from>^/appdir_ovf$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/ApplicationDirector-5.0.1.0-943241_OVF10.ovf</to>
+  </rule>
+  <rule>
+    <name>appdir_conv</name>
+    <note>Conversion utility for VMware vFabric Application Director 5.0.1</note>
+    <from>^/appdir_conv$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/ConversionUtility.jar</to>
+  </rule>
+  <rule>
+    <name>appdir_tp_osl</name>
+    <note>VMware vFabric Application Director 5.0.1 Open Source Licenses</note>
+    <from>^/appdir_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/open_source_license_vF-AppDir501GA.txt</to>
+  </rule>
+  <rule>
+    <name>appdir_tp_code</name>
+    <note>VMware vFabric Application Director 5.0.1 Open Source Code</note>
+    <from>^/appdir_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/open_source_license_vF-AppDir501GA.txt</to>
+  </rule>
+  <rule>
+    <name>appdir_tp_sles11</name>
+    <note>SLES iso file for VMware vFabric Application Director 5.0.1</note>
+    <from>^/appdir_tp_sles11$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/sles11-vmw-sp2-security-x86_64.src.iso</to>
+  </rule>
+  <rule>
+    <name>appdir_tp_ubuntu1004</name>
+    <note>Ubuntu ISO file for VMware vFabric Application Director 5.0.1</note>
+    <from>^/appdir_tp_ubuntu1004$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/ubuntu-10.04.3-src-1.iso</to>
+  </rule>
+  <rule>
+    <name>appdir_tp_centos56</name>
+    <note>CentOS 5.6 template open source file for VMware vFabric Application Director 5.0.1</note>
+    <from>^/appdir_tp_centos56$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/VMware_vFabric_Application_Director_5.0_CentOS_5.6_Templates_open_source.zip</to>
+  </rule>
+  <rule>
+    <name>appdir_tp_centos57</name>
+    <note>CentOS 5.7 template open source file for VMware vFabric Application Director 5.0.1</note>
+    <from>^/appdir_tp_centos57$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/VMware_vFabric_Application_Director_5.0_CentOS_5.7_Templates_open_source.zip</to>
+  </rule>
+  <!-- END: appdirector -->
+  <!-- BEGIN: chorus -->
+  <rule>
+    <name>chorus_sh_el</name>
+    <note>Pivotal Chorus 2.5.1 Red Hat Enterprise Linux 5.5, 5.7, 6.2 (64 bit)</note>
+    <from>^/chorus_sh_el$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/Greenplum_Chorus/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+  </rule>
+  <rule>
+    <name>chorus_sh_cent</name>
+    <note>Pivotal Chorus 2.5.1 CentOS 5.5, 5.7, 6.2 (64 bit)</note>
+    <from>^/chorus_sh_cent$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/Greenplum_Chorus/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+  </rule>
+  <rule>
+    <name>chorus_sh_suse</name>
+    <note>Pivotal Chorus 2.5.1 SuSE Linux Enterprise Server 11 (64 bit)</note>
+    <from>^/chorus_sh_suse$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/Greenplum_Chorus/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+  </rule>
+  <rule>
+    <name>chorus_sh_osx</name>
+    <note>Pivotal Chorus 2.5.1 OSX Lion x86_64</note>
+    <from>^/chorus_sh_osx$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/Greenplum_Chorus/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+  </rule>
+  <!-- END: chorus -->
+  <!-- BEGIN: em4j -->
+  <rule>
+    <name>em4j_targz</name>
+    <note>VMware vFabric EM4J 1.3.0 distribution including balloon agent and CGC (tar.gz)</note>
+    <from>^/em4j_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/em4j-1.3.0.tar.gz</to>
+  </rule>
+  <rule>
+    <name>em4j_zip</name>
+    <note>VMware vFabric EM4J 1.3.0 distribution including balloon agent and CGC (zip)</note>
+    <from>^/em4j_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/em4j-1.3.0.zip</to>
+  </rule>
+  <rule>
+    <name>em4j_plugin_targz</name>
+    <note>VMware vFabric EM4J 1.3.0 Console UI Plug-In for vSphere Web Client 5.1 (tar.gz)</note>
+    <from>^/em4j_plugin_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/em4j-plugin-1.3.0-vsphere-wc-5.1-bin.tar.gz</to>
+  </rule>
+  <rule>
+    <name>em4j_plugin_zip</name>
+    <note>VMware vFabric EM4J 1.3.0 Console UI Plug-In for vSphere Web Client 5.1 (zip)</note>
+    <from>^/em4j_plugin_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/em4j-plugin-1.3.0-vsphere-wc-5.1-bin.zip</to>
+  </rule>
+  <rule>
+    <name>em4j_tcscript_zip</name>
+    <note>VMware vFabric EM4J 1.3.0 Tomcat integration script</note>
+    <from>^/em4j_tcscript_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/em4j-for-apache-tomcat-1.3.0-dist.zip</to>
+  </rule>
+  <rule>
+    <name>em4j_tp_osl</name>
+    <note>VMware vFabric EM4J Console UI Plug-In 1.3.0 Open Source Licenses</note>
+    <from>^/em4j_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/open-source-licenses-em4j-1.3.txt</to>
+  </rule>
+  <!-- END: em4j -->
+  <!-- BEGIN: erlang -->
+  <rule>
+    <name>erl_32_el5</name>
+    <note>Erlang R15B02 RPM for RHEL 5 (32 bit)</note>
+    <from>^/erl_32_el5$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el5.i386.rpm</to>
+  </rule>
+  <rule>
+    <name>erl_64_el5</name>
+    <note>Erlang R15B02 RPM for RHEL 5 (64 bit)</note>
+    <from>^/erl_64_el5$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el5.x86_64.rpm</to>
+  </rule>
+  <rule>
+    <name>erl_32_el6</name>
+    <note>Erlang R15B02 RPM for RHEL 6 (32 bit)</note>
+    <from>^/erl_32_el6$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el6.i386.rpm</to>
+  </rule>
+  <rule>
+    <name>erl_64_el6</name>
+    <note>Erlang R15B02 RPM for RHEL 6 (64 bit)</note>
+    <from>^/erl_64_el6$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el6.x86_64.rpm</to>
+  </rule>
+  <rule>
+    <name>erl_tp_osl</name>
+    <note>Erlang R15B02 Open Source Licenses</note>
+    <from>^/erl_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/Erlang_R15B02_OSL.txt</to>
+  </rule>
+  <rule>
+    <name>erl_tp_code</name>
+    <note>Erlang R15B02 Open Source Code</note>
+    <from>^/erl_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/Erlang_R15B02_open_source.tar.gz</to>
+  </rule>
+  <!-- END: erlang -->
+  <!-- BEGIN: gemfire -->
+  <rule>
+    <name>gemf_zip</name>
+    <note>Pivotal GemFire 7.0.1 Distribution</note>
+    <from>^/gemf_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_701_b40235.zip</to>
+  </rule>
+  <rule>
+    <name>gemf_el5_rpm</name>
+    <note>Pivotal GemFire 7.0.1 RPM for RHEL 5 (32 or 64 bit)</note>
+    <from>^/gemf_el5_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vfabric-gemfire-7.0.1-2.el5.noarch.rpm</to>
+  </rule>
+  <rule>
+    <name>gemf_el6_rpm</name>
+    <note>Pivotal GemFire 7.0.1 RPM for RHEL 6 (32 or 64 bit)</note>
+    <from>^/gemf_el6_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vfabric-gemfire-7.0.1-2.el6.noarch.rpm</to>
+  </rule>
+  <rule>
+    <name>gemf_tp_osl</name>
+    <note>Pivotal GemFire 7.0.1 Open Source Licenses</note>
+    <from>^/gemf_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_7.0.1.txt</to>
+  </rule>
+  <rule>
+    <name>gemf_tp_code</name>
+    <note>Pivotal GemFire 7.0.1 Open Source Code</note>
+    <from>^/gemf_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_701_b40235_OSS.zip</to>
+  </rule>
+  <rule>
+    <name>gemf_db_tp_osl</name>
+    <note>Pivotal GemFire DataBrowser 7.0.1 Open Source Licenses</note>
+    <from>^/gemf_db_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_DataBrowser_7.0.1.txt</to>
+  </rule>
+  <rule>
+    <name>gemf_db_tp_code</name>
+    <note>Pivotal GemFire DataBrowser 7.0.1 Open Source Code</note>
+    <from>^/gemf_db_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_tarball-GFDataBrowser7.0.1.tar.gz</to>
+  </rule>
+  <rule>
+    <name>gemf_mod_tp_osl</name>
+    <note>Pivotal GemFire Modules 7.0.1 Open Source Licenses</note>
+    <from>^/gemf_mod_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_Modules_7.0.1.txt</to>
+  </rule>
+  <rule>
+    <name>gemf_mod_tp_code</name>
+    <note>Pivotal GemFire Modules 7.0.1 Open Source Code</note>
+    <from>^/gemf_mod_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_tarball-GFModules7.0.1.tar.gz</to>
+  </rule>
+  <rule>
+    <name>gemf_pulse_tp_osl</name>
+    <note>Pivotal GemFire Pulse 7.0.1 Open Source Licenses</note>
+    <from>^/gemf_pulse_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_Pulse_7.0.1.txt</to>
+  </rule>
+  <rule>
+    <name>gemf_pulse_tp_code</name>
+    <note>Pivotal GemFire Pulse 7.0.1 Open Source Code</note>
+    <from>^/gemf_pulse_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_tarball-GFPulse7.0.1.tar.gz</to>
+  </rule>
+  <!-- END: gemfire -->
+  <!-- BEGIN: gemfire_nc -->
+  <rule>
+    <name>gemf_nc_win_32</name>
+    <note>Pivotal GemFire Native Client  - Windows (32 bit)</note>
+    <from>^/gemf_nc_win_32$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_32bit__b.msi</to>
+  </rule>
+  <rule>
+    <name>gemf_nc_win_64</name>
+    <note>Pivotal GemFire Native Client  - Windows (64 bit)</note>
+    <from>^/gemf_nc_win_64$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_64bit__b.msi</to>
+  </rule>
+  <rule>
+    <name>gemf_nc_linux_32</name>
+    <note>Pivotal GemFire Native Client  - Linux (32 bit)</note>
+    <from>^/gemf_nc_linux_32$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_32bit__b.zip</to>
+  </rule>
+  <rule>
+    <name>gemf_nc_linux_64</name>
+    <note>Pivotal GemFire Native Client  - Linux (64 bit)</note>
+    <from>^/gemf_nc_linux_64$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_64bit__b.zip</to>
+  </rule>
+  <rule>
+    <name>gemf_nc_solaris_32</name>
+    <note>Pivotal GemFire Native Client  - Solaris (32 bit)</note>
+    <from>^/gemf_nc_solaris_32$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_32bit__b.zip</to>
+  </rule>
+  <rule>
+    <name>gemf_nc_solaris_64</name>
+    <note>Pivotal GemFire Native Client  - Solaris (64 bit)</note>
+    <from>^/gemf_nc_solaris_64$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_64bit__b.zip</to>
+  </rule>
+  <rule>
+    <name>gemf_nc_tp_osl</name>
+    <note>Pivotal GemFire Native Client  Open Source Licenses</note>
+    <from>^/gemf_nc_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_Native_Client_.txt</to>
+  </rule>
+  <rule>
+    <name>gemf_nc_tp_code</name>
+    <note>Pivotal GemFire Native Client  Open Source Code</note>
+    <from>^/gemf_nc_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_tarball-GF_NativeClient-.tar.gz</to>
+  </rule>
+  <!-- END: gemfire_nc -->
+  <!-- BEGIN: gemfirexd -->
+  <rule>
+    <name>gfxd_nonicm</name>
+    <note>Pivotal GemFire XD for Pivotal HD for non ICM installations</note>
+    <from>^/gfxd_nonicm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/PRTS-1.0.0-8-bin.tar.gz</to>
+  </rule>
+  <rule>
+    <name>gfxd_icm</name>
+    <note>Pivotal GemFire XD for Pivotal HD for use with ICM</note>
+    <from>^/gfxd_icm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/PRTS-1.0.0-8.tar.gz</to>
+  </rule>
+  <rule>
+    <name>gfxd_odbc_targz</name>
+    <note>Pivotal GemFire XD ODBC driver (tar.gz)</note>
+    <from>^/gfxd_odbc_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/Pivotal_GemFireXD_05Beta_b44310_ODBC.tar.gz</to>
+  </rule>
+  <rule>
+    <name>gfxd_odbc_zip</name>
+    <note>Pivotal GemFire XD ODBC driver (zip)</note>
+    <from>^/gfxd_odbc_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/Pivotal_GemFireXD_05Beta_b44310_ODBC.zip</to>
+  </rule>
+  <rule>
+    <name>gfxd_tp_osl</name>
+    <note>Pivotal GemFire XD Open Source Licenses</note>
+    <from>^/gfxd_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/open_source_licenses-Pivotal_GemFireXD_0.5.txt</to>
+  </rule>
+  <rule>
+    <name>gfxd_tp_code</name>
+    <note>Pivotal GemFire XD Open Source Code</note>
+    <from>^/gfxd_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/Pivotal_GemFireXD_05Beta_b44310_OSS.zip</to>
+  </rule>
+  <!-- END: gemfirexd -->
+  <!-- BEGIN: gpdb -->
+  <rule>
+    <name>gpdb_db_osx</name>
+    <note>Pivotal Greenplum Database v4.2.2.4 OS X</note>
+    <from>^/gpdb_db_osx$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/4.2.2.4/greenplum-db-4.2.2.4-build-1-CE-OSX-i386.zip</to>
+  </rule>
+  <rule>
+    <name>gpdb_db_el5_32</name>
+    <note>Pivotal Greenplum Database v4.2.2.4 Red Hat Enterprise Linux 5 i386</note>
+    <from>^/gpdb_db_el5_32$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/4.2.2.4/greenplum-db-4.2.2.4-build-1-CE-RHEL5-i386.zip</to>
+  </rule>
+  <rule>
+    <name>gpdb_db_el5_64</name>
+    <note>Pivotal Greenplum Database v4.2.2.4 Red Hat Enterprise Linux 5 x86</note>
+    <from>^/gpdb_db_el5_64$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/4.2.2.4/greenplum-db-4.2.2.4-build-1-CE-RHEL5-x86_64.zip</to>
+  </rule>
+  <rule>
+    <name>gpdb_db_solaris</name>
+    <note>Pivotal Greenplum Database v4.2.2.4 Solaris 10 x86</note>
+    <from>^/gpdb_db_solaris$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/4.2.2.4/greenplum-db-4.2.2.4-build-1-CE-SOL-x86_64.zip</to>
+  </rule>
+  <rule>
+    <name>gpdb_db_suse</name>
+    <note>Pivotal Greenplum Database v4.2.2.4 Suse 10 x86</note>
+    <from>^/gpdb_db_suse$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/4.2.2.4/greenplum-db-4.2.2.4-build-1-CE-SuSE10-x86_64.zip</to>
+  </rule>
+  <!-- END: gpdb -->
+  <!-- BEGIN: gpdb_con -->
+  <rule>
+    <name>gpdb_con_osx</name>
+    <note>Pivotal Greenplum Database v4.2.1.0 OS X Connectivity Tools</note>
+    <from>^/gpdb_con_osx$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/connectivity-tools/4.2.1/4.2.1.0_MacOSX_GPConnectivityTools.zip</to>
+  </rule>
+  <rule>
+    <name>gpdb_con_el</name>
+    <note>Pivotal Greenplum Database v4.2.1.0 Red Hat Enterprise Linux 5 Connectivity Tools</note>
+    <from>^/gpdb_con_el$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/connectivity-tools/4.2.1/4.2.1.0 RHEL GP Connectivity Tools.zip</to>
+  </rule>
+  <rule>
+    <name>gpdb_con_solaris</name>
+    <note>Pivotal Greenplum Database v4.2.1.0 Solaris 10 Connectivity Tools</note>
+    <from>^/gpdb_con_solaris$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/connectivity-tools/4.2.1/4.2.1.0 Solaris GP Connectivity Tools.zip</to>
+  </rule>
+  <rule>
+    <name>gpdb_con_suse</name>
+    <note>Pivotal Greenplum Database v4.2.1.0 Suse 10 Connectivity Tools</note>
+    <from>^/gpdb_con_suse$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/connectivity-tools/4.2.1/4.2.1.0 SLES GP Connectivity Tools.zip</to>
+  </rule>
+  <rule>
+    <name>gpdb_con_win</name>
+    <note>Pivotal Greenplum Database v4.2.1.0 Windows Connectivity Tools</note>
+    <from>^/gpdb_con_win$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/connectivity-tools/4.2.1/4.2.1.0 Windows GP Connectivity Tools.zip</to>
+  </rule>
+  <!-- END: gpdb_con -->
+  <!-- BEGIN: hyperic -->
+  <rule>
+    <name>hq_svr_agent_zip</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Windows (64 bit)</note>
+    <from>^/hq_svr_agent_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-x86-64-win-5.7.1.zip</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_exe</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server - Windows installer (64 bit)</note>
+    <from>^/hq_svr_agent_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vfabric-hyperic-hqee-server-5.7.1.exe</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_targz</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Linux (64 bit)</note>
+    <from>^/hq_svr_agent_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-x86-64-linux-5.7.1a.tar.gz</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_nojre_zip</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
+    <from>^/hq_svr_agent_nojre_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-noJRE-zip-5.7.1.zip</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_nojre_targz</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
+    <from>^/hq_svr_agent_nojre_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-noJRE-tar-5.7.1.tar.gz</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_ee_ova</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - OVA file</note>
+    <from>^/hq_svr_agent_ee_ova$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-5.7.1-EE.ova</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_ee_ovf</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server installation - OVF file</note>
+    <from>^/hq_svr_agent_ee_ovf$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-server-5.7.1-EE_OVF10.ovf</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_ee_mf</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server installation - MF file</note>
+    <from>^/hq_svr_agent_ee_mf$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-server-5.7.1-EE_OVF10.mf</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_ee_vmdk</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server installation - VMDK file</note>
+    <from>^/hq_svr_agent_ee_vmdk$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-server-5.7.1-EE.vmdk</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_ee_rpm</name>
+    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - RPM (64 bit)</note>
+    <from>^/hq_svr_agent_ee_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vfabric-hyperic-server-5.7.1.EE-1.x86_64.rpm</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_db_mf</name>
+    <note>VMware vFabric Hyperic 5.7.1 DB installation - MF file</note>
+    <from>^/hq_svr_agent_db_mf$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-DB-5.7.1-EE_OVF10.mf</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_db_ovf</name>
+    <note>VMware vFabric Hyperic 5.7.1 DB installation - OVF file</note>
+    <from>^/hq_svr_agent_db_ovf$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-DB-5.7.1-EE_OVF10.ovf</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_db_vmdk</name>
+    <note>VMware vFabric Hyperic 5.7.1 DB installation - VMDK file</note>
+    <from>^/hq_svr_agent_db_vmdk$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-DB-5.7.1-EE.vmdk</to>
+  </rule>
+  <rule>
+    <name>hq_agent_nojre_zip</name>
+    <note>VMware vFabric Hyperic 5.7.1 Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
+    <from>^/hq_agent_nojre_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-noJRE-5.7.1.zip</to>
+  </rule>
+  <rule>
+    <name>hq_agent_nojre_targz</name>
+    <note>VMware vFabric Hyperic 5.7.1 Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
+    <from>^/hq_agent_nojre_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-noJRE-5.7.1.tar.gz</to>
+  </rule>
+  <rule>
+    <name>hq_agent_sparc_targz</name>
+    <note>VMware vFabric Hyperic 5.7.1 Agent - Solaris - SPARC (32 or 64 bit)</note>
+    <from>^/hq_agent_sparc_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-sparc-solaris-5.7.1.tar.gz</to>
+  </rule>
+  <rule>
+    <name>hq_agent_32_win</name>
+    <note>VMware vFabric Hyperic 5.7.1 Agent - Windows (32 bit)</note>
+    <from>^/hq_agent_32_win$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-win32-5.7.1.zip</to>
+  </rule>
+  <rule>
+    <name>hq_agent_64_win</name>
+    <note>VMware vFabric Hyperic 5.7.1 Agent - Windows (64 bit)</note>
+    <from>^/hq_agent_64_win$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-x86-64-win-5.7.1.zip</to>
+  </rule>
+  <rule>
+    <name>hq_agent_win_exe</name>
+    <note>VMware vFabric Hyperic 5.7.1 Agent - Windows installer (32 or 64 bit)</note>
+    <from>^/hq_agent_win_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vfabric-hyperic-hqee-agent-5.7.1.exe</to>
+  </rule>
+  <rule>
+    <name>hq_agent_32_linux</name>
+    <note>VMware vFabric Hyperic 5.7.1 Agent - Linux (32 bit)</note>
+    <from>^/hq_agent_32_linux$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-x86-linux-5.7.1a.tar.gz</to>
+  </rule>
+  <rule>
+    <name>hq_agent_64_linux</name>
+    <note>VMware vFabric Hyperic 5.7.1 Agent - Linux (64 bit)</note>
+    <from>^/hq_agent_64_linux$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-x86-64-linux-5.7.1a.tar.gz</to>
+  </rule>
+  <rule>
+    <name>hq_agent_rpm</name>
+    <note>VMware vFabric Hyperic 5.7.1 Agent - RPM (32 or 64 bit)</note>
+    <from>^/hq_agent_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vfabric-hyperic-agent-5.7.1.EE-1.noarch.rpm</to>
+  </rule>
+  <rule>
+    <name>hq_tp_osl</name>
+    <note>VMware vFabric Hyperic 5.7.1 Open Source Licenses </note>
+    <from>^/hq_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/open_source_license_Hyperic_HQ5.7.1GA-EnterpriseVersion.txt</to>
+  </rule>
+  <rule>
+    <name>hq_tp_code</name>
+    <note>VMware vFabric Hyperic 5.7.1 Open Source Code</note>
+    <from>^/hq_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-571-OSS.gz</to>
+  </rule>
+  <!-- END: hyperic -->
+  <!-- BEGIN: licenseserver -->
+  <rule>
+    <name>lic_svr_exe</name>
+    <note>VMware vFabric License Server  for Windows</note>
+    <from>^/lic_svr_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vFabricSuite/5.3/LicenseServer_/vFabric_License_Server-.2.exe</to>
+  </rule>
+  <rule>
+    <name>lic_svr_rpm</name>
+    <note>VMware vFabric License Server  for RHEL 6 (64 bit)</note>
+    <from>^/lic_svr_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vFabricSuite/5.3/LicenseServer_/vfabric-license-server--27.noarch.rpm</to>
+  </rule>
+  <rule>
+    <name>lic_chk</name>
+    <note>VMware vFabric License Check Tool </note>
+    <from>^/lic_chk$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vFabricSuite/5.3/LicenseServer_/vfabric-vfchksn-.2-bin.zip</to>
+  </rule>
+  <rule>
+    <name>lic_tp_osl</name>
+    <note>VMware vFabric License Server  Open Source Licenses</note>
+    <from>^/lic_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vFabricSuite/5.3/LicenseServer_/open_source_licenses-vF-License-Server-.txt</to>
+  </rule>
+  <rule>
+    <name>lic_tp_code</name>
+    <note>VMware vFabric License Server  Open Source Code</note>
+    <from>^/lic_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vFabricSuite/5.3/LicenseServer_/open_source_tarball-vF-License-Server-.zip</to>
+  </rule>
+  <!-- END: licenseserver -->
+  <!-- BEGIN: postgres -->
+  <rule>
+    <name>pg_vapp</name>
+    <note>VMware vFabric Postgres Appliance 9.3.1.0 (Linux x86_64)</note>
+    <from>^/pg_vapp$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-appliance-9.3.1.0-1080158_OVF10.ova</to>
+  </rule>
+  <rule>
+    <name>pg_svr</name>
+    <note>VMware vFabric Postgres Server 9.3.1.0 (Linux x86_64)</note>
+    <from>^/pg_svr$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-rpms-9.3.1.0-1080137.tar.gz</to>
+  </rule>
+  <rule>
+    <name>pg_client_java</name>
+    <note>VMware vFabric Postgres 9.3.1.0 JDBC driver with sample code</note>
+    <from>^/pg_client_java$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1080137.jdbc.zip</to>
+  </rule>
+  <rule>
+    <name>pg_client_mac</name>
+    <note>VMware vFabric Postgres 9.3.1.0 Client tools (Mac OS X Intel 32 and 64 bit)</note>
+    <from>^/pg_client_mac$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1080137.pkg</to>
+  </rule>
+  <rule>
+    <name>pg_client_32_win</name>
+    <note>VMware vFabric Postgres 9.3.1.0 Client tools (Windows Intel 32 bit)</note>
+    <from>^/pg_client_32_win$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1080137-x86.exe</to>
+  </rule>
+  <rule>
+    <name>pg_client_64_win</name>
+    <note>VMware vFabric Postgres 9.3.1.0 Client tools (Windows Intel 64 bit)</note>
+    <from>^/pg_client_64_win$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1080137-x64.exe</to>
+  </rule>
+  <rule>
+    <name>pg_client_32_linux</name>
+    <note>VMware vFabric Postgres 9.3.1.0 Client tools (Linux Intel 32 bit)</note>
+    <from>^/pg_client_32_linux$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-32bit-client-rpms-9.3.1.0-1080137.tar.gz</to>
+  </rule>
+  <rule>
+    <name>pg_client_64_linux</name>
+    <note>VMware vFabric Postgres 9.3.1.0 Client tools (Linux Intel 64 bit)</note>
+    <from>^/pg_client_64_linux$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-rpms-9.3.1.0-1080137.tar.gz</to>
+  </rule>
+  <rule>
+    <name>pg_webgui</name>
+    <note>VMware vFabric Postgres 9.3.1.0 database entity manager GUI webapp</note>
+    <from>^/pg_webgui$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-dbem-9.3.1.0-1080137.zip</to>
+  </rule>
+  <rule>
+    <name>pg_tp_osl</name>
+    <note>VMware vFabric Postgres 9.3.1.0 Open Source Licenses</note>
+    <from>^/pg_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/vpostgres_9.2.4.0_open_source_licenses.txt</to>
+  </rule>
+  <rule>
+    <name>pg_dbvm_tp_osl</name>
+    <note>VMware vFabric Postgres 9.3.1.0 Database VM Appliance Open Source Licenses</note>
+    <from>^/pg_dbvm_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/vpostgres_9.2.4.0_dbvm_open_source_licenses.txt</to>
+  </rule>
+  <rule>
+    <name>pg_tp_code</name>
+    <note>VMware vFabric Postgres 9.3.1.0 Open Source Code</note>
+    <from>^/pg_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-oss-components-9.2.4.0-1080137.src.tgz</to>
+  </rule>
+  <rule>
+    <name>pg_dbvm_tp_code</name>
+    <note>VMware vFabric Postgres 9.3.1.0 Database VM Appliance Open Source Code</note>
+    <from>^/pg_dbvm_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-appliance-9.2.4.0-1080158.oss.tgz</to>
+  </rule>
+  <!-- END: postgres -->
+  <!-- BEGIN: pvtl_cf -->
+  <rule>
+    <name>pvtl_cf_tar</name>
+    <note>Pivotal CF 1.0.0 Client for Linux</note>
+    <from>^/pvtl_cf_tar$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-1.0.0.tar</to>
+  </rule>
+  <rule>
+    <name>pvtl_cf_exe</name>
+    <note>Pivotal CF 1.0.0 Client for Windows</note>
+    <from>^/pvtl_cf_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-1.0.0-client.exe</to>
+  </rule>
+  <rule>
+    <name>pvtl_cf_ova</name>
+    <note>Pivotal CF Virtual Appliance</note>
+    <from>^/pvtl_cf_ova$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-1.0.0.ova</to>
+  </rule>
+  <rule>
+    <name>pvtl_cf_eclipse_tar</name>
+    <note>Pivotal CF 1.0.0 Plug-in for Eclipse</note>
+    <from>^/pvtl_cf_eclipse_tar$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-eclipse-1.0.0.tar</to>
+  </rule>
+  <rule>
+    <name>pvtl_cf_gs_pdf</name>
+    <note>Pivotal CF 1.0.0 Getting Started Guide</note>
+    <from>^/pvtl_cf_gs_pdf$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-1.0.0-getting-started.pdf</to>
+  </rule>
+  <rule>
+    <name>pvtl_cf_rn_txt</name>
+    <note>Pivotal CF 1.0.0 Release Notes</note>
+    <from>^/pvtl_cf_rn_txt$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-1.0.0-release-notes.txt</to>
+  </rule>
+  <rule>
+    <name>pvtl_cf_tp_osl</name>
+    <note>Pivotal CF 1.0.0 Open Source Licenses</note>
+    <from>^/pvtl_cf_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/open_source_licenses_PVTL_CF_100.zip</to>
+  </rule>
+  <!-- END: pvtl_cf -->
+  <!-- BEGIN: pvtl_cf_pax -->
+  <rule>
+    <name>pvtl_cf_pax_tgz</name>
+    <note>Pivotal Analytics add-on for Pivotal CF</note>
+    <from>^/pvtl_cf_pax_tgz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-ax//pivotal_analytics-.tgz</to>
+  </rule>
+  <rule>
+    <name>pvtl_cf_pax_yml</name>
+    <note>Pivotal Analytics manifest for Pivotal CF</note>
+    <from>^/pvtl_cf_pax_yml$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-ax//pivotal_analytics-.yml</to>
+  </rule>
+  <!-- END: pvtl_cf_pax -->
   <!-- BEGIN: rabbitmq -->
   <rule>
     <name>rmq_svr_exe</name>
@@ -55,6 +764,20 @@
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/vfabric-rabbitmq-dotnet-client-3.2.1.exe</to>
   </rule>
   <rule>
+    <name>rmq_tp_osl</name>
+    <note>Pivotal RabbitMQ 3.2.1 Open Source Licenses</note>
+    <from>^/rmq_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/RabbitMQ_3.2.1_OSL.txt</to>
+  </rule>
+  <rule>
+    <name>rmq_tp_code</name>
+    <note>Pivotal RabbitMQ 3.2.1 Open Source Code</note>
+    <from>^/rmq_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/open_source_tarball-vF-RabMQ-3.2-FINAL.zip</to>
+  </rule>
+  <!-- END: rabbitmq -->
+  <!-- BEGIN: rjms -->
+  <rule>
     <name>rjms_client_targz</name>
     <note>JMS client and server plug-in 1.1.1 for Pivotal RabbitMQ 3.2.1 (tar.gz)</note>
     <from>^/rjms_client_targz$</from>
@@ -79,91 +802,13 @@
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.1/rabbitmq-jms-package-1.1.1-reference-app.zip</to>
   </rule>
   <rule>
-    <name>erl_32_el5</name>
-    <note>Erlang R15B02 RPM for RHEL 5 (32 bit)</note>
-    <from>^/erl_32_el5$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el5.i386.rpm</to>
-  </rule>
-  <rule>
-    <name>erl_64_el5</name>
-    <note>Erlang R15B02 RPM for RHEL 5 (64 bit)</note>
-    <from>^/erl_64_el5$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el5.x86_64.rpm</to>
-  </rule>
-  <rule>
-    <name>erl_32_el6</name>
-    <note>Erlang R15B02 RPM for RHEL 6 (32 bit)</note>
-    <from>^/erl_32_el6$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el6.i386.rpm</to>
-  </rule>
-  <rule>
-    <name>erl_64_el6</name>
-    <note>Erlang R15B02 RPM for RHEL 6 (64 bit)</note>
-    <from>^/erl_64_el6$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/erlang-R15B-02.1.el6.x86_64.rpm</to>
-  </rule>
-  <rule>
-    <name>rmq_tp_osl</name>
-    <note>Pivotal RabbitMQ 3.2.1 Open Source Licenses</note>
-    <from>^/rmq_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/RabbitMQ_3.2.1_OSL.txt</to>
-  </rule>
-  <rule>
-    <name>rmq_tp_code</name>
-    <note>Pivotal RabbitMQ 3.2.1 Open Source Code</note>
-    <from>^/rmq_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/open_source_tarball-vF-RabMQ-3.2-FINAL.zip</to>
-  </rule>
-  <rule>
     <name>rjms_tp_osl</name>
     <note>JMS client 1.1.1 for Pivotal RabbitMQ 3.2.1 Open Source Licenses</note>
     <from>^/rjms_tp_osl$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.1/open_source_licenses-Rabbit-JMS-1.1.1.txt</to>
   </rule>
-  <rule>
-    <name>erl_tp_osl</name>
-    <note>Erlang R15B02 Open Source Licenses</note>
-    <from>^/erl_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/Erlang_R15B02_OSL.txt</to>
-  </rule>
-  <rule>
-    <name>erl_tp_code</name>
-    <note>Erlang R15B02 Open Source Code</note>
-    <from>^/erl_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/Erlang_R15B02_open_source.tar.gz</to>
-  </rule>
-  <!-- END: rabbitmq -->
-<!-- BEGIN: tcserver -->
-  <rule>
-    <name>tcs_std_targz</name>
-    <note>Pivotal tc Server 2.9.4 Standard Edition Runtime (tar.gz)</note>
-    <from>^/tcs_std_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4.RELEASE.tar.gz</to>
-  </rule>
-  <rule>
-    <name>tcs_std_zip</name>
-    <note>Pivotal tc Server 2.9.4 Standard Edition Runtime (zip)</note>
-    <from>^/tcs_std_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4.RELEASE.zip</to>
-  </rule>
-  <rule>
-    <name>tcs_std_rpm</name>
-    <note>Pivotal tc Server 2.9.4 Standard Edition Runtime (rpm)</note>
-    <from>^/tcs_std_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4-RELEASE.noarch.rpm</to>
-  </rule>
-  <rule>
-    <name>tcs_dev_targz</name>
-    <note>Pivotal tc Server 2.9.4 Developer Edition Runtime (tar.gz)</note>
-    <from>^/tcs_dev_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-developer-2.9.4.RELEASE.tar.gz</to>
-  </rule>
-  <rule>
-    <name>tcs_dev_zip</name>
-    <note>Pivotal tc Server 2.9.4 Developer Edition Runtime (zip)</note>
-    <from>^/tcs_dev_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-developer-2.9.4.RELEASE.zip</to>
-  </rule>
+  <!-- END: rjms -->
+  <!-- BEGIN: springinsight -->
   <rule>
     <name>sig_agent_zip</name>
     <note>Spring Insight Operations 1.9.2.SR3 Agent</note>
@@ -183,64 +828,62 @@
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/springinsight/1.9.2.SR3/insight-developer-kit-1.9.2.SR3.zip</to>
   </rule>
   <rule>
-    <name>hq_svr_agent_zip</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Windows (64 bit)</note>
-    <from>^/hq_svr_agent_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-x86-64-win-5.7.1.zip</to>
+    <name>sig_tp_osl</name>
+    <note>Spring Insight Operations 1.9.2.SR3 Open Source Licenses</note>
+    <from>^/sig_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/springinsight/1.9.2.SR3/open_source_license-s2-insight-1.9.2.SR3.txt</to>
   </rule>
   <rule>
-    <name>hq_svr_agent_targz</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Linux (64 bit)</note>
-    <from>^/hq_svr_agent_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-x86-64-linux-5.7.1a.tar.gz</to>
+    <name>sig_tp_code</name>
+    <note>Spring Insight Operations 1.9.2.SR3 Open Source Code</note>
+    <from>^/sig_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/springinsight/1.9.2.SR3/open_source_source-s2-insight-1.9.2.SR3.tar.gz</to>
+  </rule>
+  <!-- END: springinsight -->
+  <!-- BEGIN: sqlfire -->
+  <rule>
+    <name>sqlf_zip</name>
+    <note>Pivotal SQLFire 1.1.1 Distribution</note>
+    <from>^/sqlf_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vFabric_SQLFire_111_b42624.zip</to>
   </rule>
   <rule>
-    <name>em4j_targz</name>
-    <note>VMware vFabric EM4J 1.3.0 distribution including balloon agent and CGC (tar.gz)</note>
-    <from>^/em4j_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/em4j-1.3.0.tar.gz</to>
+    <name>sqlf_el5_rpm</name>
+    <note>Pivotal SQLFire 1.1.1 RPM for RHEL 5 (32 or 64 bit)</note>
+    <from>^/sqlf_el5_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vfabric-sqlfire-1.1.1-1.el5.noarch.rpm</to>
   </rule>
   <rule>
-    <name>em4j_zip</name>
-    <note>VMware vFabric EM4J 1.3.0 distribution including balloon agent and CGC (zip)</note>
-    <from>^/em4j_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/em4j-1.3.0.zip</to>
+    <name>sqlf_el6_rpm</name>
+    <note>Pivotal SQLFire 1.1.1 RPM for RHEL 6 (32 or 64 bit)</note>
+    <from>^/sqlf_el6_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vfabric-sqlfire-1.1.1-1.el6.noarch.rpm</to>
   </rule>
   <rule>
-    <name>em4j_plugin_targz</name>
-    <note>VMware vFabric EM4J 1.3.0 Console UI Plug-In for vSphere Web Client 5.1 (tar.gz)</note>
-    <from>^/em4j_plugin_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/em4j-plugin-1.3.0-vsphere-wc-5.1-bin.tar.gz</to>
+    <name>sqlf_tp_osl</name>
+    <note>Pivotal SQLFire 1.1.1 Open Source Licenses</note>
+    <from>^/sqlf_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/open_source_licenses-VMware_vFabric_SQLFire_1.1.1.txt</to>
   </rule>
   <rule>
-    <name>em4j_plugin_zip</name>
-    <note>VMware vFabric EM4J 1.3.0 Console UI Plug-In for vSphere Web Client 5.1 (zip)</note>
-    <from>^/em4j_plugin_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/em4j-plugin-1.3.0-vsphere-wc-5.1-bin.zip</to>
+    <name>sqlf_tp_code</name>
+    <note>Pivotal SQLFire 1.1.1 Open Source Code</note>
+    <from>^/sqlf_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vFabric_SQLFire_111_b42624_OSS.zip</to>
+  </rule>
+  <!-- END: sqlfire -->
+  <!-- BEGIN: tcserver -->
+  <rule>
+    <name>tcs_dev_targz</name>
+    <note>Pivotal tc Server 2.9.4 Developer Edition Runtime (tar.gz)</note>
+    <from>^/tcs_dev_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-developer-2.9.4.RELEASE.tar.gz</to>
   </rule>
   <rule>
-    <name>em4j_tcscript_zip</name>
-    <note>VMware vFabric EM4J 1.3.0 Tomcat integration script</note>
-    <from>^/em4j_tcscript_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/em4j-for-apache-tomcat-1.3.0-dist.zip</to>
-  </rule>
-  <rule>
-    <name>tcs_hq_plug</name>
-    <note>Pivotal tc Server 2.9.4 plug-in for VMware Hyperic</note>
-    <from>^/tcs_hq_plug$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/springsource-tc-server-hq-plugin-2.9.4.RELEASE.zip</to>
-  </rule>
-  <rule>
-    <name>tcs_std_tp_osl</name>
-    <note>Pivotal tc Server Standard Edition 2.9.4 Open Source Licenses</note>
-    <from>^/tcs_std_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-open-source-licenses-2.9.4.RELEASE.txt</to>
-  </rule>
-  <rule>
-    <name>tcs_std_tp_code</name>
-    <note>Pivotal tc Server Standard Edition 2.9.4 Open Source Code</note>
-    <from>^/tcs_std_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-open-source-source-2.9.4.RELEASE.tar.gz</to>
+    <name>tcs_dev_zip</name>
+    <note>Pivotal tc Server 2.9.4 Developer Edition Runtime (zip)</note>
+    <from>^/tcs_dev_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-developer-2.9.4.RELEASE.zip</to>
   </rule>
   <rule>
     <name>tcs_dev_tp_osl</name>
@@ -255,34 +898,40 @@
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-developer-open-source-source-2.9.4.RELEASE.tar.gz</to>
   </rule>
   <rule>
-    <name>em4j_tp_osl</name>
-    <note>VMware vFabric EM4J Console UI Plug-In 1.3.0 Open Source Licenses</note>
-    <from>^/em4j_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/em4j/1.3.0/open-source-licenses-em4j-1.3.txt</to>
+    <name>tcs_std_targz</name>
+    <note>Pivotal tc Server 2.9.4 Standard Edition Runtime (tar.gz)</note>
+    <from>^/tcs_std_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4.RELEASE.tar.gz</to>
   </rule>
   <rule>
-    <name>sig_tp_osl</name>
-    <note>Spring Insight Operations 1.9.2.SR3 Open Source Licenses</note>
-    <from>^/sig_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/springinsight/1.9.2.SR3/open_source_license-s2-insight-1.9.2.SR3.txt</to>
+    <name>tcs_std_zip</name>
+    <note>Pivotal tc Server 2.9.4 Standard Edition Runtime (zip)</note>
+    <from>^/tcs_std_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4.RELEASE.zip</to>
   </rule>
   <rule>
-    <name>sig_tp_code</name>
-    <note>Spring Insight Operations 1.9.2.SR3 Open Source Code</note>
-    <from>^/sig_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/springinsight/1.9.2.SR3/open_source_source-s2-insight-1.9.2.SR3.tar.gz</to>
+    <name>tcs_std_rpm</name>
+    <note>Pivotal tc Server 2.9.4 Standard Edition Runtime (rpm)</note>
+    <from>^/tcs_std_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-2.9.4-RELEASE.noarch.rpm</to>
   </rule>
   <rule>
-    <name>hq_tp_osl</name>
-    <note>VMware vFabric Hyperic 5.7.1 Open Source Licenses </note>
-    <from>^/hq_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/open_source_license_Hyperic_HQ5.7.1GA-EnterpriseVersion.txt</to>
+    <name>tcs_std_tp_osl</name>
+    <note>Pivotal tc Server Standard Edition 2.9.4 Open Source Licenses</note>
+    <from>^/tcs_std_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-open-source-licenses-2.9.4.RELEASE.txt</to>
   </rule>
   <rule>
-    <name>hq_tp_code</name>
-    <note>VMware vFabric Hyperic 5.7.1 Open Source Code</note>
-    <from>^/hq_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-571-OSS.gz</to>
+    <name>tcs_std_tp_code</name>
+    <note>Pivotal tc Server Standard Edition 2.9.4 Open Source Code</note>
+    <from>^/tcs_std_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/vfabric-tc-server-standard-open-source-source-2.9.4.RELEASE.tar.gz</to>
+  </rule>
+  <rule>
+    <name>tcs_hq_plug</name>
+    <note>Pivotal tc Server 2.9.4 plug-in for VMware Hyperic</note>
+    <from>^/tcs_hq_plug$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.4/springsource-tc-server-hq-plugin-2.9.4.RELEASE.zip</to>
   </rule>
   <rule>
     <name>tcs_hq_plug_tp_code</name>
@@ -473,152 +1122,4 @@
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/open_source_tarball-vfabric-web-server-5.3.2.zip</to>
   </rule>
   <!-- END: webserver -->
-  <!-- BEGIN: gemfire -->
-  <rule>
-    <name>gemf_zip</name>
-    <note>Pivotal GemFire 7.0.1 Distribution</note>
-    <from>^/gemf_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/GemFire/7.0.1/vFabric_GemFire_701_b40235.zip</to>
-  </rule>
-  <rule>
-    <name>gemf_el5_rpm</name>
-    <note>Pivotal GemFire 7.0.1 RPM for RHEL 5 (32 or 64 bit)</note>
-    <from>^/gemf_el5_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/GemFire/7.0.1/vfabric-gemfire-7.0.1-2.el5.noarch.rpm</to>
-  </rule>
-  <rule>
-    <name>gemf_el6_rpm</name>
-    <note>Pivotal GemFire 7.0.1 RPM for RHEL 6 (32 or 64 bit)</note>
-    <from>^/gemf_el6_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/GemFire/7.0.1/vfabric-gemfire-7.0.1-2.el6.noarch.rpm</to>
-  </rule>
-  <rule>
-    <name>gemf_nc_win_32</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Windows (32 bit)</note>
-    <from>^/gemf_nc_win_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_32bit_7010_b5886.msi</to>
-  </rule>
-  <rule>
-    <name>gemf_nc_win_64</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Windows (64 bit)</note>
-    <from>^/gemf_nc_win_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_64bit_7010_b5886.msi</to>
-  </rule>
-  <rule>
-    <name>gemf_nc_linux_32</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Linux (32 bit)</note>
-    <from>^/gemf_nc_linux_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_32bit_7010_b5886.zip</to>
-  </rule>
-  <rule>
-    <name>gemf_nc_linux_64</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Linux (64 bit)</note>
-    <from>^/gemf_nc_linux_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_64bit_7010_b5886.zip</to>
-  </rule>
-  <rule>
-    <name>gemf_nc_solaris_32</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Solaris (32 bit)</note>
-    <from>^/gemf_nc_solaris_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_32bit_7010_b5886.zip</to>
-  </rule>
-  <rule>
-    <name>gemf_nc_solaris_64</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Solaris (64 bit)</note>
-    <from>^/gemf_nc_solaris_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_64bit_7010_b5886.zip</to>
-  </rule>
-  <rule>
-    <name>gemf_tp_osl</name>
-    <note>Pivotal GemFire 7.0.1 Open Source Licenses</note>
-    <from>^/gemf_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/GemFire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_7.0.1.txt</to>
-  </rule>
-  <rule>
-    <name>gemf_tp_code</name>
-    <note>Pivotal GemFire 7.0.1 Open Source Code</note>
-    <from>^/gemf_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/GemFire/7.0.1/vFabric_GemFire_701_b40235_OSS.zip</to>
-  </rule>
-  <rule>
-    <name>gemf_db_tp_osl</name>
-    <note>Pivotal GemFire DataBrowser 7.0.1 Open Source Licenses</note>
-    <from>^/gemf_db_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/GemFire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_DataBrowser_7.0.1.txt</to>
-  </rule>
-  <rule>
-    <name>gemf_db_tp_code</name>
-    <note>Pivotal GemFire DataBrowser 7.0.1 Open Source Code</note>
-    <from>^/gemf_db_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/GemFire/7.0.1/open_source_tarball-GFDataBrowser7.0.1.tar.gz</to>
-  </rule>
-  <rule>
-    <name>gemf_mod_tp_osl</name>
-    <note>Pivotal GemFire Modules 7.0.1 Open Source Licenses</note>
-    <from>^/gemf_mod_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/GemFire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_Modules_7.0.1.txt</to>
-  </rule>
-  <rule>
-    <name>gemf_mod_tp_code</name>
-    <note>Pivotal GemFire Modules 7.0.1 Open Source Code</note>
-    <from>^/gemf_mod_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/GemFire/7.0.1/open_source_tarball-GFModules7.0.1.tar.gz</to>
-  </rule>
-  <rule>
-    <name>gemf_pulse_tp_osl</name>
-    <note>Pivotal GemFire Pulse 7.0.1 Open Source Licenses</note>
-    <from>^/gemf_pulse_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/GemFire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_Pulse_7.0.1.txt</to>
-  </rule>
-  <rule>
-    <name>gemf_pulse_tp_code</name>
-    <note>Pivotal GemFire Pulse 7.0.1 Open Source Code</note>
-    <from>^/gemf_pulse_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/GemFire/7.0.1/open_source_tarball-GFPulse7.0.1.tar.gz</to>
-  </rule>
-  <rule>
-    <name>gemf_nc_tp_osl</name>
-    <note>Pivotal GemFire Native Client 7.0.1 Open Source Licenses</note>
-    <from>^/gemf_nc_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_Native_Client_7.0.1.txt</to>
-  </rule>
-  <rule>
-    <name>gemf_nc_tp_code</name>
-    <note>Pivotal GemFire Native Client 7.0.1 Open Source Code</note>
-    <from>^/gemf_nc_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_tarball-GF_NativeClient-7.0.1.0.tar.gz</to>
-  </rule>
-  <!-- END: gemfire -->
-  <!-- BEGIN: sqlfire -->
-  <rule>
-    <name>sqlf_zip</name>
-    <note>Pivotal SQLFire 1.1.1 Distribution</note>
-    <from>^/sqlf_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vFabric_SQLFire_111_b42624.zip</to>
-  </rule>
-  <rule>
-    <name>sqlf_el5_rpm</name>
-    <note>Pivotal SQLFire 1.1.1 RPM for RHEL 5 (32 or 64 bit)</note>
-    <from>^/sqlf_el5_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vfabric-sqlfire-1.1.1-1.el5.noarch.rpm</to>
-  </rule>
-  <rule>
-    <name>sqlf_el6_rpm</name>
-    <note>Pivotal SQLFire 1.1.1 RPM for RHEL 6 (32 or 64 bit)</note>
-    <from>^/sqlf_el6_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vfabric-sqlfire-1.1.1-1.el6.noarch.rpm</to>
-  </rule>
-  <rule>
-    <name>sqlf_tp_osl</name>
-    <note>Pivotal SQLFire 1.1.1 Open Source Licenses</note>
-    <from>^/sqlf_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/open_source_licenses-VMware_vFabric_SQLFire_1.1.1.txt</to>
-  </rule>
-  <rule>
-    <name>sqlf_tp_code</name>
-    <note>Pivotal SQLFire 1.1.1 Open Source Code</note>
-    <from>^/sqlf_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vFabric_SQLFire_111_b42624_OSS.zip</to>
-  </rule>
-  <!-- END: sqlfire -->
 </urlrewrite>
