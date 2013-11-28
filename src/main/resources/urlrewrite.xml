@@ -291,4 +291,186 @@
     <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/tcserver/2.9.4/springsource-tc-server-hq-plugin-open-source-source-2.9.4.RELEASE.tar.gz</to>
   </rule>
   <!-- END: tcserver -->
+  <!-- BEGIN: webserver -->
+  <rule>
+    <name>wsvr_32_exe</name>
+    <note>Pivotal Web Server 5.3.2 - Windows (32 bit)</note>
+    <from>^/wsvr_32_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x86-windows.zip.exe</to>
+  </rule>
+  <rule>
+    <name>wsvr_64_exe</name>
+    <note>Pivotal Web Server 5.3.2 - Windows (64 bit)</note>
+    <from>^/wsvr_64_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x64-windows.zip.exe</to>
+  </rule>
+  <rule>
+    <name>wsvr_32_sfx</name>
+    <note>Pivotal Web Server 5.3.2 - Linux - Intel (32 bit)</note>
+    <from>^/wsvr_32_sfx$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x86-linux-glibc2.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_64_sfx</name>
+    <note>Pivotal Web Server 5.3.2 - Linux - Intel (64 bit)</note>
+    <from>^/wsvr_64_sfx$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x86_64-linux-glibc2.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_32_ppc</name>
+    <note>Pivotal Web Server 5.3.2 - Linux - PowerPC (32 bit)</note>
+    <from>^/wsvr_32_ppc$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-ppc-linux-glibc2.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_64_ppc</name>
+    <note>Pivotal Web Server 5.3.2 - Linux - PowerPC (64 bit)</note>
+    <from>^/wsvr_64_ppc$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-ppc64-linux-glibc2.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_32_solaris_sparc</name>
+    <note>Pivotal Web Server 5.3.2 - Solaris 10 - SPARC (32 bit)</note>
+    <from>^/wsvr_32_solaris_sparc$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-sparc-sun-solaris-10.x.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_64_solaris_sparc</name>
+    <note>Pivotal Web Server 5.3.2 - Solaris 10 - SPARC (64 bit)</note>
+    <from>^/wsvr_64_solaris_sparc$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-sparcv9-sun-solaris-10.x.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_32_solaris_intel</name>
+    <note>Pivotal Web Server 5.3.2 - Solaris 10 - Intel (32 bit)</note>
+    <from>^/wsvr_32_solaris_intel$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x86-solaris-10.x.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_64_solaris_intel</name>
+    <note>Pivotal Web Server 5.3.2 - Solaris 10 - Intel (64 bit)</note>
+    <from>^/wsvr_64_solaris_intel$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x86_64-solaris-10.x.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_32_intel_rpm</name>
+    <note>vFabric Web Server 5.3.2 RPM - Intel (32 bit)</note>
+    <from>^/wsvr_32_intel_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1.i686.rpm</to>
+  </rule>
+  <rule>
+    <name>wsvr_64_intel_rpm</name>
+    <note>vFabric Web Server 5.3.2 RPM - Intel (64 bit)</note>
+    <from>^/wsvr_64_intel_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1.x86_64.rpm</to>
+  </rule>
+  <rule>
+    <name>wsvr_32_ppc_rpm</name>
+    <note>vFabric Web Server 5.3.2 RPM - PowerPC (32 bit)</note>
+    <from>^/wsvr_32_ppc_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1.ppc.rpm</to>
+  </rule>
+  <rule>
+    <name>wsvr_64_ppc_rpm</name>
+    <note>vFabric Web Server 5.3.2 RPM - PowerPC (64 bit)</note>
+    <from>^/wsvr_64_ppc_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-5.3.2-1.ppc64.rpm</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_32_exe</name>
+    <note>Pivotal Web Server 5.3.2 - Windows (32 bit) Development Files</note>
+    <from>^/wsvr_devel_32_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x86-windows.zip.exe</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_64_exe</name>
+    <note>Pivotal Web Server 5.3.2 - Windows (64 bit) Development Files</note>
+    <from>^/wsvr_devel_64_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x64-windows.zip.exe</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_32_sfx</name>
+    <note>Pivotal Web Server 5.3.2 - Linux - Intel (32 bit) Development Files</note>
+    <from>^/wsvr_devel_32_sfx$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x86-linux-glibc2.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_64_sfx</name>
+    <note>Pivotal Web Server 5.3.2 - Linux - Intel (64 bit) Development Files</note>
+    <from>^/wsvr_devel_64_sfx$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x86_64-linux-glibc2.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_32_ppc</name>
+    <note>Pivotal Web Server 5.3.2 - Linux - PowerPC (32 bit) Development Files</note>
+    <from>^/wsvr_devel_32_ppc$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-ppc-linux-glibc2.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_64_ppc</name>
+    <note>Pivotal Web Server 5.3.2 - Linux - PowerPC (64 bit) Development Files</note>
+    <from>^/wsvr_devel_64_ppc$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-ppc64-linux-glibc2.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_32_solaris_sparc</name>
+    <note>Pivotal Web Server 5.3.2 - Solaris 10 - SPARC (32 bit) Development Files</note>
+    <from>^/wsvr_devel_32_solaris_sparc$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-sparc-sun-solaris-10.x.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_64_solaris_sparc</name>
+    <note>Pivotal Web Server 5.3.2 - Solaris 10 - SPARC (64 bit) Development Files</note>
+    <from>^/wsvr_devel_64_solaris_sparc$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-sparcv9-sun-solaris-10.x.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_32_solaris_intel</name>
+    <note>Pivotal Web Server 5.3.2 - Solaris 10 - Intel (32 bit) Development Files</note>
+    <from>^/wsvr_devel_32_solaris_intel$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x86-solaris-10.x.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_64_solaris_intel</name>
+    <note>Pivotal Web Server 5.3.2 - Solaris 10 - Intel (64 bit) Development Files</note>
+    <from>^/wsvr_devel_64_solaris_intel$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x86_64-solaris-10.x.zip.sfx</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_32_intel_rpm</name>
+    <note>vFabric Web Server 5.3.2 RPM - Intel (32 bit) Development Files</note>
+    <from>^/wsvr_devel_32_intel_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1.i686.rpm</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_64_intel_rpm</name>
+    <note>vFabric Web Server 5.3.2 RPM - Intel (64 bit) Development Files</note>
+    <from>^/wsvr_devel_64_intel_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1.x86_64.rpm</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_32_ppc_rpm</name>
+    <note>vFabric Web Server 5.3.2 RPM - PowerPC (32 bit) Development Files</note>
+    <from>^/wsvr_devel_32_ppc_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1.ppc.rpm</to>
+  </rule>
+  <rule>
+    <name>wsvr_devel_64_ppc_rpm</name>
+    <note>vFabric Web Server 5.3.2 RPM - PowerPC (64 bit) Development Files</note>
+    <from>^/wsvr_devel_64_ppc_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1.ppc64.rpm</to>
+  </rule>
+  <rule>
+    <name>wsvr_tp_osl</name>
+    <note>Pivotal Web Server 5.3.2 Open Source Licenses</note>
+    <from>^/wsvr_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/open_source_licenses-vfabric-web-server-5.3.2.txt</to>
+  </rule>
+  <rule>
+    <name>wsvr_tp_code</name>
+    <note>Pivotal Web Server 5.3.2 Open Source Code</note>
+    <from>^/wsvr_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.pivotal.com.s3.amazonaws.com/webserver/5.3.2/open_source_tarball-vfabric-web-server-5.3.2.zip</to>
+  </rule>
+  <!-- END: webserver -->
 </urlrewrite>
