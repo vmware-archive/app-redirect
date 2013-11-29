@@ -81,25 +81,25 @@
     <name>chorus_sh_el</name>
     <note>Pivotal Chorus 2.5.1 Red Hat Enterprise Linux 5.5, 5.7, 6.2 (64 bit)</note>
     <from>^/chorus_sh_el$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
   </rule>
   <rule>
     <name>chorus_sh_cent</name>
     <note>Pivotal Chorus 2.5.1 CentOS 5.5, 5.7, 6.2 (64 bit)</note>
     <from>^/chorus_sh_cent$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
   </rule>
   <rule>
     <name>chorus_sh_suse</name>
     <note>Pivotal Chorus 2.5.1 SuSE Linux Enterprise Server 11 (64 bit)</note>
     <from>^/chorus_sh_suse$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
   </rule>
   <rule>
     <name>chorus_sh_osx</name>
     <note>Pivotal Chorus 2.5.1 OSX Lion x86_64</note>
     <from>^/chorus_sh_osx$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/chorus/2.5.1.0/greenplum-chorus-2.5.1.0.2-10b286a39.sh</to>
   </rule>
   <!-- END: chorus -->
   <!-- BEGIN: em4j -->
@@ -249,51 +249,51 @@
   <!-- BEGIN: gemfire_nc -->
   <rule>
     <name>gemf_nc_win_32</name>
-    <note>Pivotal GemFire Native Client  - Windows (32 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.1 - Windows (32 bit)</note>
     <from>^/gemf_nc_win_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_32bit__b.msi</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_32bit_7010_b5886.msi</to>
   </rule>
   <rule>
     <name>gemf_nc_win_64</name>
-    <note>Pivotal GemFire Native Client  - Windows (64 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.1 - Windows (64 bit)</note>
     <from>^/gemf_nc_win_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_64bit__b.msi</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_64bit_7010_b5886.msi</to>
   </rule>
   <rule>
     <name>gemf_nc_linux_32</name>
-    <note>Pivotal GemFire Native Client  - Linux (32 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.1 - Linux (32 bit)</note>
     <from>^/gemf_nc_linux_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_32bit__b.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_32bit_7010_b5886.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_linux_64</name>
-    <note>Pivotal GemFire Native Client  - Linux (64 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.1 - Linux (64 bit)</note>
     <from>^/gemf_nc_linux_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_64bit__b.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_64bit_7010_b5886.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_solaris_32</name>
-    <note>Pivotal GemFire Native Client  - Solaris (32 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.1 - Solaris (32 bit)</note>
     <from>^/gemf_nc_solaris_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_32bit__b.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_32bit_7010_b5886.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_solaris_64</name>
-    <note>Pivotal GemFire Native Client  - Solaris (64 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.1 - Solaris (64 bit)</note>
     <from>^/gemf_nc_solaris_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_64bit__b.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_64bit_7010_b5886.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_tp_osl</name>
-    <note>Pivotal GemFire Native Client  Open Source Licenses</note>
+    <note>Pivotal GemFire Native Client 7.0.1 Open Source Licenses</note>
     <from>^/gemf_nc_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_Native_Client_.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_Native_Client_7.0.1.txt</to>
   </rule>
   <rule>
     <name>gemf_nc_tp_code</name>
-    <note>Pivotal GemFire Native Client  Open Source Code</note>
+    <note>Pivotal GemFire Native Client 7.0.1 Open Source Code</note>
     <from>^/gemf_nc_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_tarball-GF_NativeClient-.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_tarball-GF_NativeClient-7.0.1.0.tar.gz</to>
   </rule>
   <!-- END: gemfire_nc -->
   <!-- BEGIN: gemfirexd -->
@@ -547,33 +547,33 @@
   <!-- BEGIN: licenseserver -->
   <rule>
     <name>lic_svr_exe</name>
-    <note>VMware vFabric License Server  for Windows</note>
+    <note>VMware vFabric License Server 5.3.0 for Windows</note>
     <from>^/lic_svr_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/licenseserver//vFabric_License_Server-.2.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/license-server/5.3.0/vFabric_License_Server-5.3.0.2.exe</to>
   </rule>
   <rule>
     <name>lic_svr_rpm</name>
-    <note>VMware vFabric License Server  for RHEL 6 (64 bit)</note>
+    <note>VMware vFabric License Server 5.3.0 for RHEL 6 (64 bit)</note>
     <from>^/lic_svr_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/licenseserver//vfabric-license-server--27.noarch.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/license-server/5.3.0/vfabric-license-server-5.3.0-27.noarch.rpm</to>
   </rule>
   <rule>
     <name>lic_chk</name>
-    <note>VMware vFabric License Check Tool </note>
+    <note>VMware vFabric License Check Tool 5.3.0</note>
     <from>^/lic_chk$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/licenseserver//vfabric-vfchksn-.2-bin.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/license-server/5.3.0/vfabric-vfchksn-5.3.0.2-bin.zip</to>
   </rule>
   <rule>
     <name>lic_tp_osl</name>
-    <note>VMware vFabric License Server  Open Source Licenses</note>
+    <note>VMware vFabric License Server 5.3.0 Open Source Licenses</note>
     <from>^/lic_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/licenseserver//open_source_licenses-vF-License-Server-.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/license-server/5.3.0/open_source_licenses-vF-License-Server-5.3.0.txt</to>
   </rule>
   <rule>
     <name>lic_tp_code</name>
-    <note>VMware vFabric License Server  Open Source Code</note>
+    <note>VMware vFabric License Server 5.3.0 Open Source Code</note>
     <from>^/lic_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/licenseserver//open_source_tarball-vF-License-Server-.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/license-server/5.3.0/open_source_tarball-vF-License-Server-5.3.0.zip</to>
   </rule>
   <!-- END: licenseserver -->
   <!-- BEGIN: postgres -->
