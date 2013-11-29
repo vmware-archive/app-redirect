@@ -671,7 +671,7 @@
   </rule>
   <rule>
     <name>pvtl_cf_ova</name>
-    <note>Pivotal CF Virtual Appliance</note>
+    <note>Pivotal CF  1.0.0 Virtual Appliance</note>
     <from>^/pvtl_cf_ova$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-1.0.0.ova</to>
   </rule>
@@ -700,20 +700,28 @@
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/open_source_licenses_PVTL_CF_100.zip</to>
   </rule>
   <!-- END: pvtl_cf -->
-  <!-- BEGIN: pvtl_cf_pax -->
+  <!-- BEGIN: pvtl_cf_ax -->
   <rule>
-    <name>pvtl_cf_pax_tgz</name>
+    <name>pvtl_cf_ax_tgz</name>
     <note>Pivotal Analytics add-on for Pivotal CF</note>
-    <from>^/pvtl_cf_pax_tgz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-ax//pivotal_analytics-.tgz</to>
+    <from>^/pvtl_cf_ax_tgz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-ax/1.0.0.0/pivotal_analytics-1.0.tgz</to>
   </rule>
   <rule>
-    <name>pvtl_cf_pax_yml</name>
+    <name>pvtl_cf_ax_yml</name>
     <note>Pivotal Analytics manifest for Pivotal CF</note>
-    <from>^/pvtl_cf_pax_yml$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-ax//pivotal_analytics-.yml</to>
+    <from>^/pvtl_cf_ax_yml$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-ax/1.0.0.0/pivotal_analytics-1.0.yml</to>
   </rule>
-  <!-- END: pvtl_cf_pax -->
+  <!-- END: pvtl_cf_ax -->
+  <!-- BEGIN: pvtl_cf_rmq -->
+  <rule>
+    <name>pvtl_cf_rmq_zip</name>
+    <note>Pivotal RabbitMQ add-on for Pivotal CF</note>
+    <from>^/pvtl_cf_rmq_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-rmq/1.0.0.0/p-rabbitmq.zip</to>
+  </rule>
+  <!-- END: pvtl_cf_rmq -->
   <!-- BEGIN: rabbitmq -->
   <rule>
     <name>rmq_svr_exe</name>
