@@ -181,7 +181,7 @@
   <!-- BEGIN: gemfire -->
   <rule>
     <name>gemf_zip</name>
-    <note>Pivotal GemFire 701 Distribution</note>
+    <note>Pivotal GemFire 7.0.1 Distribution</note>
     <from>^/gemf_zip$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_701_b40235.zip</to>
   </rule>
