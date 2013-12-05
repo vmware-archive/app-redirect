@@ -587,7 +587,7 @@
     <name>pg_svr</name>
     <note>VMware vFabric Postgres Server 9.3.1.0 (Linux x86_64)</note>
     <from>^/pg_svr$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-Postgres-rpms-9.3.1.0-1427172.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-Postgres-rpms-9.3.1.0-1427172.x86_64.tar.gz</to>
   </rule>
   <rule>
     <name>pg_client_java</name>
@@ -605,13 +605,13 @@
     <name>pg_client_32_win</name>
     <note>VMware vFabric Postgres 9.3.1.0 Client tools (Windows Intel 32 bit)</note>
     <from>^/pg_client_32_win$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-Postgres-client-9.3.1.0-1427172-x86.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-Postgres-client-9.3.1.0-1427172.i686.exe</to>
   </rule>
   <rule>
     <name>pg_client_64_win</name>
     <note>VMware vFabric Postgres 9.3.1.0 Client tools (Windows Intel 64 bit)</note>
     <from>^/pg_client_64_win$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-Postgres-client-9.3.1.0-1427172-x64.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-Postgres-client-9.3.1.0-1427172.x86_64.exe</to>
   </rule>
   <rule>
     <name>pg_client_32_linux</name>
