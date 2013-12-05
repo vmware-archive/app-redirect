@@ -251,37 +251,37 @@
     <name>gemf_nc_win_32</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Windows (32 bit)</note>
     <from>^/gemf_nc_win_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_32bit_7010_b5886.msi</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_32bit_7010_b.msi</to>
   </rule>
   <rule>
     <name>gemf_nc_win_64</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Windows (64 bit)</note>
     <from>^/gemf_nc_win_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_64bit_7010_b5886.msi</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_64bit_7010_b.msi</to>
   </rule>
   <rule>
     <name>gemf_nc_linux_32</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Linux (32 bit)</note>
     <from>^/gemf_nc_linux_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_32bit_7010_b5886.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_32bit_7010_b.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_linux_64</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Linux (64 bit)</note>
     <from>^/gemf_nc_linux_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_64bit_7010_b5886.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_64bit_7010_b.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_solaris_32</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Solaris (32 bit)</note>
     <from>^/gemf_nc_solaris_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_32bit_7010_b5886.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_32bit_7010_b.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_solaris_64</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Solaris (64 bit)</note>
     <from>^/gemf_nc_solaris_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_64bit_7010_b5886.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_64bit_7010_b.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_tp_osl</name>
@@ -337,31 +337,31 @@
   <!-- BEGIN: gpdb -->
   <rule>
     <name>gpdb_db_osx</name>
-    <note>Pivotal Greenplum Database v4.2.2.4 OS X</note>
+    <note>Pivotal Greenplum Database 4.2.2.4 OS X</note>
     <from>^/gpdb_db_osx$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/4.2.2.4/greenplum-db-4.2.2.4-build-1-CE-OSX-i386.zip</to>
   </rule>
   <rule>
     <name>gpdb_db_el5_32</name>
-    <note>Pivotal Greenplum Database v4.2.2.4 Red Hat Enterprise Linux 5 i386</note>
+    <note>Pivotal Greenplum Database 4.2.2.4 Red Hat Enterprise Linux 5 i386</note>
     <from>^/gpdb_db_el5_32$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/4.2.2.4/greenplum-db-4.2.2.4-build-1-CE-RHEL5-i386.zip</to>
   </rule>
   <rule>
     <name>gpdb_db_el5_64</name>
-    <note>Pivotal Greenplum Database v4.2.2.4 Red Hat Enterprise Linux 5 x86</note>
+    <note>Pivotal Greenplum Database 4.2.2.4 Red Hat Enterprise Linux 5 x86</note>
     <from>^/gpdb_db_el5_64$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/4.2.2.4/greenplum-db-4.2.2.4-build-1-CE-RHEL5-x86_64.zip</to>
   </rule>
   <rule>
     <name>gpdb_db_solaris</name>
-    <note>Pivotal Greenplum Database v4.2.2.4 Solaris 10 x86</note>
+    <note>Pivotal Greenplum Database 4.2.2.4 Solaris 10 x86</note>
     <from>^/gpdb_db_solaris$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/4.2.2.4/greenplum-db-4.2.2.4-build-1-CE-SOL-x86_64.zip</to>
   </rule>
   <rule>
     <name>gpdb_db_suse</name>
-    <note>Pivotal Greenplum Database v4.2.2.4 Suse 10 x86</note>
+    <note>Pivotal Greenplum Database 4.2.2.4 Suse 10 x86</note>
     <from>^/gpdb_db_suse$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/4.2.2.4/greenplum-db-4.2.2.4-build-1-CE-SuSE10-x86_64.zip</to>
   </rule>
@@ -369,31 +369,31 @@
   <!-- BEGIN: gpdb_con -->
   <rule>
     <name>gpdb_con_osx</name>
-    <note>Pivotal Greenplum Database v4.2.1.0 OS X Connectivity Tools</note>
+    <note>Pivotal Greenplum Database 4.2.1.0 OS X Connectivity Tools</note>
     <from>^/gpdb_con_osx$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/connectivity-tools/4.2.1/4.2.1.0_MacOSX_GPConnectivityTools.zip</to>
   </rule>
   <rule>
     <name>gpdb_con_el</name>
-    <note>Pivotal Greenplum Database v4.2.1.0 Red Hat Enterprise Linux 5 Connectivity Tools</note>
+    <note>Pivotal Greenplum Database 4.2.1.0 Red Hat Enterprise Linux 5 Connectivity Tools</note>
     <from>^/gpdb_con_el$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/connectivity-tools/4.2.1/4.2.1.0 RHEL GP Connectivity Tools.zip</to>
   </rule>
   <rule>
     <name>gpdb_con_solaris</name>
-    <note>Pivotal Greenplum Database v4.2.1.0 Solaris 10 Connectivity Tools</note>
+    <note>Pivotal Greenplum Database 4.2.1.0 Solaris 10 Connectivity Tools</note>
     <from>^/gpdb_con_solaris$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/connectivity-tools/4.2.1/4.2.1.0 Solaris GP Connectivity Tools.zip</to>
   </rule>
   <rule>
     <name>gpdb_con_suse</name>
-    <note>Pivotal Greenplum Database v4.2.1.0 Suse 10 Connectivity Tools</note>
+    <note>Pivotal Greenplum Database 4.2.1.0 Suse 10 Connectivity Tools</note>
     <from>^/gpdb_con_suse$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/connectivity-tools/4.2.1/4.2.1.0 SLES GP Connectivity Tools.zip</to>
   </rule>
   <rule>
     <name>gpdb_con_win</name>
-    <note>Pivotal Greenplum Database v4.2.1.0 Windows Connectivity Tools</note>
+    <note>Pivotal Greenplum Database 4.2.1.0 Windows Connectivity Tools</note>
     <from>^/gpdb_con_win$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/connectivity-tools/4.2.1/4.2.1.0 Windows GP Connectivity Tools.zip</to>
   </rule>
@@ -581,79 +581,79 @@
     <name>pg_vapp</name>
     <note>VMware vFabric Postgres Appliance 9.3.1.0 (Linux x86_64)</note>
     <from>^/pg_vapp$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-appliance-9.3.1.0-1080158_OVF10.ova</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-appliance-9.3.1.0-1427182_OVF10.ova</to>
   </rule>
   <rule>
     <name>pg_svr</name>
     <note>VMware vFabric Postgres Server 9.3.1.0 (Linux x86_64)</note>
     <from>^/pg_svr$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-rpms-9.3.1.0-1080137.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-rpms-9.3.1.0-1427172.tar.gz</to>
   </rule>
   <rule>
     <name>pg_client_java</name>
     <note>VMware vFabric Postgres 9.3.1.0 JDBC driver with sample code</note>
     <from>^/pg_client_java$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1080137.jdbc.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1427172.jdbc.zip</to>
   </rule>
   <rule>
     <name>pg_client_mac</name>
     <note>VMware vFabric Postgres 9.3.1.0 Client tools (Mac OS X Intel 32 and 64 bit)</note>
     <from>^/pg_client_mac$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1080137.pkg</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1427172.pkg</to>
   </rule>
   <rule>
     <name>pg_client_32_win</name>
     <note>VMware vFabric Postgres 9.3.1.0 Client tools (Windows Intel 32 bit)</note>
     <from>^/pg_client_32_win$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1080137-x86.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1427172-x86.exe</to>
   </rule>
   <rule>
     <name>pg_client_64_win</name>
     <note>VMware vFabric Postgres 9.3.1.0 Client tools (Windows Intel 64 bit)</note>
     <from>^/pg_client_64_win$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1080137-x64.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-9.3.1.0-1427172-x64.exe</to>
   </rule>
   <rule>
     <name>pg_client_32_linux</name>
     <note>VMware vFabric Postgres 9.3.1.0 Client tools (Linux Intel 32 bit)</note>
     <from>^/pg_client_32_linux$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-32bit-client-rpms-9.3.1.0-1080137.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-32bit-client-rpms-9.3.1.0-1427172.tar.gz</to>
   </rule>
   <rule>
     <name>pg_client_64_linux</name>
     <note>VMware vFabric Postgres 9.3.1.0 Client tools (Linux Intel 64 bit)</note>
     <from>^/pg_client_64_linux$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-rpms-9.3.1.0-1080137.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-client-rpms-9.3.1.0-1427172.tar.gz</to>
   </rule>
   <rule>
     <name>pg_webgui</name>
     <note>VMware vFabric Postgres 9.3.1.0 database entity manager GUI webapp</note>
     <from>^/pg_webgui$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-dbem-9.3.1.0-1080137.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-dbem-9.3.1.0-1427172.zip</to>
   </rule>
   <rule>
     <name>pg_tp_osl</name>
     <note>VMware vFabric Postgres 9.3.1.0 Open Source Licenses</note>
     <from>^/pg_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/vpostgres_9.2.4.0_open_source_licenses.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/vpostgres_9.3.1.0_open_source_licenses.txt</to>
   </rule>
   <rule>
     <name>pg_dbvm_tp_osl</name>
     <note>VMware vFabric Postgres 9.3.1.0 Database VM Appliance Open Source Licenses</note>
     <from>^/pg_dbvm_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/vpostgres_9.2.4.0_dbvm_open_source_licenses.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/vpostgres_9.3.1.0_dbvm_open_source_licenses.txt</to>
   </rule>
   <rule>
     <name>pg_tp_code</name>
     <note>VMware vFabric Postgres 9.3.1.0 Open Source Code</note>
     <from>^/pg_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-oss-components-9.2.4.0-1080137.src.tgz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-oss-components-9.3.1.0-1427172.src.tgz</to>
   </rule>
   <rule>
     <name>pg_dbvm_tp_code</name>
     <note>VMware vFabric Postgres 9.3.1.0 Database VM Appliance Open Source Code</note>
     <from>^/pg_dbvm_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-appliance-9.2.4.0-1080158.oss.tgz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/postgres/9.3.1.0/VMware-vFabric-Postgres-appliance-9.3.1.0-1427182.oss.tgz</to>
   </rule>
   <!-- END: postgres -->
   <!-- BEGIN: pvtl_cf -->
@@ -703,13 +703,13 @@
   <!-- BEGIN: pvtl_cf_ax -->
   <rule>
     <name>pvtl_cf_ax_tgz</name>
-    <note>Pivotal Analytics add-on for Pivotal CF</note>
+    <note>Pivotal Analytics 1.0.0 add-on for Pivotal CF</note>
     <from>^/pvtl_cf_ax_tgz$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-ax/1.0.0.0/pivotal_analytics-1.0.tgz</to>
   </rule>
   <rule>
     <name>pvtl_cf_ax_yml</name>
-    <note>Pivotal Analytics manifest for Pivotal CF</note>
+    <note>Pivotal Analytics 1.0.0 manifest for Pivotal CF</note>
     <from>^/pvtl_cf_ax_yml$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-ax/1.0.0.0/pivotal_analytics-1.0.yml</to>
   </rule>
@@ -717,7 +717,7 @@
   <!-- BEGIN: pvtl_cf_rmq -->
   <rule>
     <name>pvtl_cf_rmq_zip</name>
-    <note>Pivotal RabbitMQ add-on for Pivotal CF</note>
+    <note>Pivotal RabbitMQ 1.0.0 add-on for Pivotal CF</note>
     <from>^/pvtl_cf_rmq_zip$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-rmq/1.0.0.0/p-rabbitmq.zip</to>
   </rule>
