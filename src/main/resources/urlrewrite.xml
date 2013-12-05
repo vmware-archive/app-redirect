@@ -245,43 +245,41 @@
     <from>^/gemf_pulse_tp_code$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/open_source_tarball-GFPulse7.0.1.tar.gz</to>
   </rule>
-  <!-- END: gemfire -->
-  <!-- BEGIN: gemfire_nc -->
   <rule>
     <name>gemf_nc_win_32</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Windows (32 bit)</note>
     <from>^/gemf_nc_win_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_32bit_7010_b.msi</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_32bit_7010_b5886.msi</to>
   </rule>
   <rule>
     <name>gemf_nc_win_64</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Windows (64 bit)</note>
     <from>^/gemf_nc_win_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_64bit_7010_b.msi</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_64bit_7010_b5886.msi</to>
   </rule>
   <rule>
     <name>gemf_nc_linux_32</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Linux (32 bit)</note>
     <from>^/gemf_nc_linux_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_Linux_32bit_7010_b.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_Linux_32bit_7010_b5886.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_linux_64</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Linux (64 bit)</note>
     <from>^/gemf_nc_linux_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_Linux_64bit_7010_b.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_Linux_64bit_7010_b5886.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_solaris_32</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Solaris (32 bit)</note>
     <from>^/gemf_nc_solaris_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_Solaris_32bit_7010_b.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_Solaris_32bit_7010_b5886.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_solaris_64</name>
     <note>Pivotal GemFire Native Client 7.0.1 - Solaris (64 bit)</note>
     <from>^/gemf_nc_solaris_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_Solaris_64bit_7010_b.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/vFabric_GemFire_NativeClient_Solaris_64bit_7010_b5886.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_tp_osl</name>
@@ -295,7 +293,7 @@
     <from>^/gemf_nc_tp_code$</from>
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1.0/open_source_tarball-GF_NativeClient-7.0.1.0.tar.gz</to>
   </rule>
-  <!-- END: gemfire_nc -->
+  <!-- END: gemfire -->
   <!-- BEGIN: gemfirexd -->
   <rule>
     <name>gfxd_nonicm</name>
