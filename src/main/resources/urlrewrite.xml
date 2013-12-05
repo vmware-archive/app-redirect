@@ -207,7 +207,7 @@
     <name>gemf_tp_code</name>
     <note>Pivotal GemFire 7.0.1 Open Source Code</note>
     <from>^/gemf_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_7010_b40235_OSS.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_701_b40235_OSS.zip</to>
   </rule>
   <rule>
     <name>gemf_db_tp_osl</name>
