@@ -399,148 +399,148 @@
   <!-- END: gpdb_con -->
   <!-- BEGIN: hyperic -->
   <rule>
-    <name>hq_svr_agent_zip</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Windows (64 bit)</note>
-    <from>^/hq_svr_agent_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-x86-64-win-5.7.1.zip</to>
-  </rule>
-  <rule>
-    <name>hq_svr_agent_exe</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server - Windows installer (64 bit)</note>
-    <from>^/hq_svr_agent_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vfabric-hyperic-hqee-server-5.7.1.exe</to>
-  </rule>
-  <rule>
-    <name>hq_svr_agent_targz</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Linux (64 bit)</note>
-    <from>^/hq_svr_agent_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-x86-64-linux-5.7.1a.tar.gz</to>
+    <name>hq_svr_agent_nojre_targz</name>
+    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
+    <from>^/hq_svr_agent_nojre_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_svr_agent_nojre_zip</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
+    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
     <from>^/hq_svr_agent_nojre_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-noJRE-zip-5.7.1.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
-    <name>hq_svr_agent_nojre_targz</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
-    <from>^/hq_svr_agent_nojre_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-noJRE-tar-5.7.1.tar.gz</to>
+    <name>hq_svr_agent_targz</name>
+    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - Linux (64 bit)</note>
+    <from>^/hq_svr_agent_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_zip</name>
+    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - Windows (64 bit)</note>
+    <from>^/hq_svr_agent_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_exe</name>
+    <note>VMware vFabric Hyperic 5.8.0 Server - Windows installer (64 bit)</note>
+    <from>^/hq_svr_agent_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_svr_agent_ee_ova</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - OVA file</note>
+    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - OVA file</note>
     <from>^/hq_svr_agent_ee_ova$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-5.7.1-EE.ova</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_svr_agent_ee_ovf</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server installation - OVF file</note>
+    <note>VMware vFabric Hyperic 5.8.0 Server installation - OVF file</note>
     <from>^/hq_svr_agent_ee_ovf$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-server-5.7.1-EE_OVF10.ovf</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_svr_agent_ee_mf</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server installation - MF file</note>
+    <note>VMware vFabric Hyperic 5.8.0 Server installation - MF file</note>
     <from>^/hq_svr_agent_ee_mf$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-server-5.7.1-EE_OVF10.mf</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_svr_agent_ee_vmdk</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server installation - VMDK file</note>
+    <note>VMware vFabric Hyperic 5.8.0 Server installation - VMDK file</note>
     <from>^/hq_svr_agent_ee_vmdk$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-server-5.7.1-EE.vmdk</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_svr_agent_ee_rpm</name>
-    <note>VMware vFabric Hyperic 5.7.1 Server and Agent - RPM (64 bit)</note>
+    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - RPM (64 bit)</note>
     <from>^/hq_svr_agent_ee_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vfabric-hyperic-server-5.7.1.EE-1.x86_64.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_svr_agent_db_mf</name>
-    <note>VMware vFabric Hyperic 5.7.1 DB installation - MF file</note>
+    <note>VMware vFabric Hyperic 5.8.0 DB installation - MF file</note>
     <from>^/hq_svr_agent_db_mf$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-DB-5.7.1-EE_OVF10.mf</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_svr_agent_db_ovf</name>
-    <note>VMware vFabric Hyperic 5.7.1 DB installation - OVF file</note>
+    <note>VMware vFabric Hyperic 5.8.0 DB installation - OVF file</note>
     <from>^/hq_svr_agent_db_ovf$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-DB-5.7.1-EE_OVF10.ovf</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_svr_agent_db_vmdk</name>
-    <note>VMware vFabric Hyperic 5.7.1 DB installation - VMDK file</note>
+    <note>VMware vFabric Hyperic 5.8.0 DB installation - VMDK file</note>
     <from>^/hq_svr_agent_db_vmdk$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-DB-5.7.1-EE.vmdk</to>
-  </rule>
-  <rule>
-    <name>hq_agent_nojre_zip</name>
-    <note>VMware vFabric Hyperic 5.7.1 Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
-    <from>^/hq_agent_nojre_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-noJRE-5.7.1.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_agent_nojre_targz</name>
-    <note>VMware vFabric Hyperic 5.7.1 Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
     <from>^/hq_agent_nojre_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-noJRE-5.7.1.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
-    <name>hq_agent_sparc_targz</name>
-    <note>VMware vFabric Hyperic 5.7.1 Agent - Solaris - SPARC (32 or 64 bit)</note>
-    <from>^/hq_agent_sparc_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-sparc-solaris-5.7.1.tar.gz</to>
-  </rule>
-  <rule>
-    <name>hq_agent_32_win</name>
-    <note>VMware vFabric Hyperic 5.7.1 Agent - Windows (32 bit)</note>
-    <from>^/hq_agent_32_win$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-win32-5.7.1.zip</to>
-  </rule>
-  <rule>
-    <name>hq_agent_64_win</name>
-    <note>VMware vFabric Hyperic 5.7.1 Agent - Windows (64 bit)</note>
-    <from>^/hq_agent_64_win$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-installer-x86-64-win-5.7.1.zip</to>
-  </rule>
-  <rule>
-    <name>hq_agent_win_exe</name>
-    <note>VMware vFabric Hyperic 5.7.1 Agent - Windows installer (32 or 64 bit)</note>
-    <from>^/hq_agent_win_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vfabric-hyperic-hqee-agent-5.7.1.exe</to>
+    <name>hq_agent_nojre_zip</name>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
+    <from>^/hq_agent_nojre_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_agent_32_linux</name>
-    <note>VMware vFabric Hyperic 5.7.1 Agent - Linux (32 bit)</note>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - Linux (32 bit)</note>
     <from>^/hq_agent_32_linux$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-x86-linux-5.7.1a.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_agent_64_linux</name>
-    <note>VMware vFabric Hyperic 5.7.1 Agent - Linux (64 bit)</note>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - Linux (64 bit)</note>
     <from>^/hq_agent_64_linux$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/hyperic-hqee-agent-x86-64-linux-5.7.1a.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_agent_rpm</name>
-    <note>VMware vFabric Hyperic 5.7.1 Agent - RPM (32 or 64 bit)</note>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - RPM (32 or 64 bit)</note>
     <from>^/hq_agent_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vfabric-hyperic-agent-5.7.1.EE-1.noarch.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+  </rule>
+  <rule>
+    <name>hq_agent_32_win</name>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - Windows (32 bit)</note>
+    <from>^/hq_agent_32_win$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+  </rule>
+  <rule>
+    <name>hq_agent_64_win</name>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - Windows (64 bit)</note>
+    <from>^/hq_agent_64_win$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+  </rule>
+  <rule>
+    <name>hq_agent_win_exe</name>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - Windows installer (32 or 64 bit)</note>
+    <from>^/hq_agent_win_exe$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+  </rule>
+  <rule>
+    <name>hq_agent_sparc_targz</name>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - Solaris - SPARC (32 or 64 bit)</note>
+    <from>^/hq_agent_sparc_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_tp_osl</name>
-    <note>VMware vFabric Hyperic 5.7.1 Open Source Licenses </note>
+    <note>VMware vFabric Hyperic 5.8.0 Open Source Licenses </note>
     <from>^/hq_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/open_source_license_Hyperic_HQ5.7.1GA-EnterpriseVersion.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <rule>
     <name>hq_tp_code</name>
-    <note>VMware vFabric Hyperic 5.7.1 Open Source Code</note>
+    <note>VMware vFabric Hyperic 5.8.0 Open Source Code</note>
     <from>^/hq_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.7.1/vFabric-hyperic-571-OSS.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
   </rule>
   <!-- END: hyperic -->
   <!-- BEGIN: licenseserver -->
@@ -724,95 +724,185 @@
   <!-- BEGIN: rabbitmq -->
   <rule>
     <name>rmq_svr_exe</name>
-    <note>Pivotal RabbitMQ 3.2.1 Server for Windows</note>
+    <note>Pivotal RabbitMQ 3.2.2 Server for Windows</note>
     <from>^/rmq_svr_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/vfabric-rabbitmq-server-3.2.1.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
   </rule>
   <rule>
     <name>rmq_svr_targz</name>
-    <note>Pivotal RabbitMQ 3.2.1 Server for Linux</note>
+    <note>Pivotal RabbitMQ 3.2.2 Server for Linux</note>
     <from>^/rmq_svr_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/vfabric-rabbitmq-server-3.2.1.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
   </rule>
   <rule>
     <name>rmq_svr_32_rpm</name>
-    <note>Pivotal RabbitMQ 3.2.1 Server RPM for Linux (32 bit)</note>
+    <note>Pivotal RabbitMQ 3.2.2 Server RPM for Linux (32 bit)</note>
     <from>^/rmq_svr_32_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/vfabric-rabbitmq-server-3.2.1-3.i686.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
   </rule>
   <rule>
     <name>rmq_svr_64_rpm</name>
-    <note>Pivotal RabbitMQ 3.2.1 Server RPM for Linux (64 bit)</note>
+    <note>Pivotal RabbitMQ 3.2.2 Server RPM for Linux (64 bit)</note>
     <from>^/rmq_svr_64_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/vfabric-rabbitmq-server-3.2.1-3.x86_64.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
+  </rule>
+  <rule>
+    <name>rmq_svr_64_deb</name>
+    <note>Pivotal RabbitMQ 3.2.2 Server package for Debian Linux (64 bit)</note>
+    <from>^/rmq_svr_64_deb$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
   </rule>
   <rule>
     <name>rmq_java_exe</name>
-    <note>Pivotal RabbitMQ 3.2.1 Java Client for Windows</note>
+    <note>Pivotal RabbitMQ 3.2.2 Java Client for Windows</note>
     <from>^/rmq_java_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/vfabric-rabbitmq-java-client-3.2.1.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
   </rule>
   <rule>
     <name>rmq_java_targz</name>
-    <note>Pivotal RabbitMQ 3.2.1 Java Client for Linux</note>
+    <note>Pivotal RabbitMQ 3.2.2 Java Client for Linux</note>
     <from>^/rmq_java_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/vfabric-rabbitmq-java-client-bin-3.2.1.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
   </rule>
   <rule>
     <name>rmq_java_rpm</name>
-    <note>Pivotal RabbitMQ 3.2.1 Java Client RPM for Linux</note>
+    <note>Pivotal RabbitMQ 3.2.2 Java Client RPM for Linux</note>
     <from>^/rmq_java_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/vfabric-rabbitmq-java-client-bin-3.2.1-3.noarch.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
+  </rule>
+  <rule>
+    <name>rmq_java_deb</name>
+    <note>Pivotal RabbitMQ 3.2.2 Java Client package for Debian Linux</note>
+    <from>^/rmq_java_deb$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
   </rule>
   <rule>
     <name>rmq_dotnet_exe</name>
-    <note>Pivotal RabbitMQ 3.2.1 .NET Client for Windows</note>
+    <note>Pivotal RabbitMQ 3.2.2 .NET Client for Windows</note>
     <from>^/rmq_dotnet_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/vfabric-rabbitmq-dotnet-client-3.2.1.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
+  </rule>
+  <rule>
+    <name>rjms_client_targz</name>
+    <note>JMS client and server plug-in 1.1.2 for Pivotal RabbitMQ 3.2.2 (tar.gz)</note>
+    <from>^/rjms_client_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
+  </rule>
+  <rule>
+    <name>rjms_client_zip</name>
+    <note>JMS client and server plug-in 1.1.2 for Pivotal RabbitMQ 3.2.2 (zip)</note>
+    <from>^/rjms_client_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
+  </rule>
+  <rule>
+    <name>rjms_refapp_targz</name>
+    <note>JMS reference application 1.1.2 for Pivotal RabbitMQ 3.2.2 (tar.gz)</note>
+    <from>^/rjms_refapp_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
+  </rule>
+  <rule>
+    <name>rjms_refapp_zip</name>
+    <note>JMS reference application 1.1.2 for Pivotal RabbitMQ 3.2.2 (zip)</note>
+    <from>^/rjms_refapp_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
+  </rule>
+  <rule>
+    <name>erl_32_el5</name>
+    <note>Erlang R15B02 RPM for RHEL 5 (32 bit)</note>
+    <from>^/erl_32_el5$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/</to>
+  </rule>
+  <rule>
+    <name>erl_64_el5</name>
+    <note>Erlang R15B02 RPM for RHEL 5 (64 bit)</note>
+    <from>^/erl_64_el5$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/</to>
+  </rule>
+  <rule>
+    <name>erl_32_el6</name>
+    <note>Erlang R15B02 RPM for RHEL 6 (32 bit)</note>
+    <from>^/erl_32_el6$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/</to>
+  </rule>
+  <rule>
+    <name>erl_64_el6</name>
+    <note>Erlang R15B02 RPM for RHEL 6 (64 bit)</note>
+    <from>^/erl_64_el6$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/</to>
   </rule>
   <rule>
     <name>rmq_tp_osl</name>
-    <note>Pivotal RabbitMQ 3.2.1 Open Source Licenses</note>
+    <note>Pivotal RabbitMQ 3.2.2 Open Source Licenses</note>
     <from>^/rmq_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/RabbitMQ_3.2.1_OSL.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
   </rule>
   <rule>
     <name>rmq_tp_code</name>
-    <note>Pivotal RabbitMQ 3.2.1 Open Source Code</note>
+    <note>Pivotal RabbitMQ 3.2.2 Open Source Code</note>
     <from>^/rmq_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.1/open_source_tarball-vF-RabMQ-3.2-FINAL.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/</to>
+  </rule>
+  <rule>
+    <name>rjms_tp_osl</name>
+    <note>JMS client 1.1.2 for Pivotal RabbitMQ 3.2.2 Open Source Licenses</note>
+    <from>^/rjms_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
+  </rule>
+  <rule>
+    <name>rjms_tp_code</name>
+    <note>JMS client 1.1.2 for Pivotal RabbitMQ 3.2.2 Open Source Code</note>
+    <from>^/rjms_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
+  </rule>
+  <rule>
+    <name>erl_tp_osl</name>
+    <note>Erlang R15B02 Open Source Licenses</note>
+    <from>^/erl_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/</to>
+  </rule>
+  <rule>
+    <name>erl_tp_code</name>
+    <note>Erlang R15B02 Open Source Code</note>
+    <from>^/erl_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/erlang/R15B02/</to>
   </rule>
   <!-- END: rabbitmq -->
   <!-- BEGIN: rjms -->
   <rule>
     <name>rjms_client_targz</name>
-    <note>JMS client and server plug-in 1.1.1 for Pivotal RabbitMQ 3.2.1 (tar.gz)</note>
+    <note>JMS client and server plug-in 1.1.2 for Pivotal RabbitMQ 3.2.2 (tar.gz)</note>
     <from>^/rjms_client_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.1/rabbitmq-jms-package-1.1.1-client-and-plugin.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
   </rule>
   <rule>
     <name>rjms_client_zip</name>
-    <note>JMS client and server plug-in 1.1.1 for Pivotal RabbitMQ 3.2.1 (zip)</note>
+    <note>JMS client and server plug-in 1.1.2 for Pivotal RabbitMQ 3.2.2 (zip)</note>
     <from>^/rjms_client_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.1/rabbitmq-jms-package-1.1.1-client-and-plugin.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
   </rule>
   <rule>
     <name>rjms_refapp_targz</name>
-    <note>JMS reference application 1.1.1 for Pivotal RabbitMQ 3.2.1 (tar.gz)</note>
+    <note>JMS reference application 1.1.2 for Pivotal RabbitMQ 3.2.2 (tar.gz)</note>
     <from>^/rjms_refapp_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.1/rabbitmq-jms-package-1.1.1-reference-app.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
   </rule>
   <rule>
     <name>rjms_refapp_zip</name>
-    <note>JMS reference application 1.1.1 for Pivotal RabbitMQ 3.2.1 (zip)</note>
+    <note>JMS reference application 1.1.2 for Pivotal RabbitMQ 3.2.2 (zip)</note>
     <from>^/rjms_refapp_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.1/rabbitmq-jms-package-1.1.1-reference-app.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
   </rule>
   <rule>
     <name>rjms_tp_osl</name>
-    <note>JMS client 1.1.1 for Pivotal RabbitMQ 3.2.1 Open Source Licenses</note>
+    <note>JMS client 1.1.2 for Pivotal RabbitMQ 3.2.2 Open Source Licenses</note>
     <from>^/rjms_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.1/open_source_licenses-Rabbit-JMS-1.1.1.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
+  </rule>
+  <rule>
+    <name>rjms_tp_code</name>
+    <note>JMS client 1.1.2 for Pivotal RabbitMQ 3.2.2 Open Source Code</note>
+    <from>^/rjms_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/</to>
   </rule>
   <!-- END: rjms -->
   <!-- BEGIN: springinsight -->
@@ -950,183 +1040,183 @@
   <!-- BEGIN: webserver -->
   <rule>
     <name>wsvr_32_exe</name>
-    <note>Pivotal Web Server 5.3.2 - Windows (32 bit)</note>
+    <note>Pivotal Web Server 5.3.3 - Windows (32 bit)</note>
     <from>^/wsvr_32_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x86-windows.zip.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_64_exe</name>
-    <note>Pivotal Web Server 5.3.2 - Windows (64 bit)</note>
+    <note>Pivotal Web Server 5.3.3 - Windows (64 bit)</note>
     <from>^/wsvr_64_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x64-windows.zip.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_32_sfx</name>
-    <note>Pivotal Web Server 5.3.2 - Linux - Intel (32 bit)</note>
+    <note>Pivotal Web Server 5.3.3 - Linux - Intel (32 bit)</note>
     <from>^/wsvr_32_sfx$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x86-linux-glibc2.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_64_sfx</name>
-    <note>Pivotal Web Server 5.3.2 - Linux - Intel (64 bit)</note>
+    <note>Pivotal Web Server 5.3.3 - Linux - Intel (64 bit)</note>
     <from>^/wsvr_64_sfx$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x86_64-linux-glibc2.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_32_ppc</name>
-    <note>Pivotal Web Server 5.3.2 - Linux - PowerPC (32 bit)</note>
+    <note>Pivotal Web Server 5.3.3 - Linux - PowerPC (32 bit)</note>
     <from>^/wsvr_32_ppc$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-ppc-linux-glibc2.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_64_ppc</name>
-    <note>Pivotal Web Server 5.3.2 - Linux - PowerPC (64 bit)</note>
+    <note>Pivotal Web Server 5.3.3 - Linux - PowerPC (64 bit)</note>
     <from>^/wsvr_64_ppc$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-ppc64-linux-glibc2.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_32_solaris_sparc</name>
-    <note>Pivotal Web Server 5.3.2 - Solaris 10 - SPARC (32 bit)</note>
+    <note>Pivotal Web Server 5.3.3 - Solaris 10 - SPARC (32 bit)</note>
     <from>^/wsvr_32_solaris_sparc$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-sparc-sun-solaris-10.x.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_64_solaris_sparc</name>
-    <note>Pivotal Web Server 5.3.2 - Solaris 10 - SPARC (64 bit)</note>
+    <note>Pivotal Web Server 5.3.3 - Solaris 10 - SPARC (64 bit)</note>
     <from>^/wsvr_64_solaris_sparc$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-sparcv9-sun-solaris-10.x.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_32_solaris_intel</name>
-    <note>Pivotal Web Server 5.3.2 - Solaris 10 - Intel (32 bit)</note>
+    <note>Pivotal Web Server 5.3.3 - Solaris 10 - Intel (32 bit)</note>
     <from>^/wsvr_32_solaris_intel$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x86-solaris-10.x.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_64_solaris_intel</name>
-    <note>Pivotal Web Server 5.3.2 - Solaris 10 - Intel (64 bit)</note>
+    <note>Pivotal Web Server 5.3.3 - Solaris 10 - Intel (64 bit)</note>
     <from>^/wsvr_64_solaris_intel$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1-x86_64-solaris-10.x.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_32_intel_rpm</name>
-    <note>vFabric Web Server 5.3.2 RPM - Intel (32 bit)</note>
+    <note>vFabric Web Server 5.3.3 RPM - Intel (32 bit)</note>
     <from>^/wsvr_32_intel_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1.i686.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_64_intel_rpm</name>
-    <note>vFabric Web Server 5.3.2 RPM - Intel (64 bit)</note>
+    <note>vFabric Web Server 5.3.3 RPM - Intel (64 bit)</note>
     <from>^/wsvr_64_intel_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1.x86_64.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_32_ppc_rpm</name>
-    <note>vFabric Web Server 5.3.2 RPM - PowerPC (32 bit)</note>
+    <note>vFabric Web Server 5.3.3 RPM - PowerPC (32 bit)</note>
     <from>^/wsvr_32_ppc_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1.ppc.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_64_ppc_rpm</name>
-    <note>vFabric Web Server 5.3.2 RPM - PowerPC (64 bit)</note>
+    <note>vFabric Web Server 5.3.3 RPM - PowerPC (64 bit)</note>
     <from>^/wsvr_64_ppc_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-5.3.2-1.ppc64.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_32_exe</name>
-    <note>Pivotal Web Server 5.3.2 - Windows (32 bit) Development Files</note>
+    <note>Pivotal Web Server 5.3.3 - Windows (32 bit) Development Files</note>
     <from>^/wsvr_devel_32_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x86-windows.zip.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_64_exe</name>
-    <note>Pivotal Web Server 5.3.2 - Windows (64 bit) Development Files</note>
+    <note>Pivotal Web Server 5.3.3 - Windows (64 bit) Development Files</note>
     <from>^/wsvr_devel_64_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x64-windows.zip.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_32_sfx</name>
-    <note>Pivotal Web Server 5.3.2 - Linux - Intel (32 bit) Development Files</note>
+    <note>Pivotal Web Server 5.3.3 - Linux - Intel (32 bit) Development Files</note>
     <from>^/wsvr_devel_32_sfx$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x86-linux-glibc2.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_64_sfx</name>
-    <note>Pivotal Web Server 5.3.2 - Linux - Intel (64 bit) Development Files</note>
+    <note>Pivotal Web Server 5.3.3 - Linux - Intel (64 bit) Development Files</note>
     <from>^/wsvr_devel_64_sfx$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x86_64-linux-glibc2.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_32_ppc</name>
-    <note>Pivotal Web Server 5.3.2 - Linux - PowerPC (32 bit) Development Files</note>
+    <note>Pivotal Web Server 5.3.3 - Linux - PowerPC (32 bit) Development Files</note>
     <from>^/wsvr_devel_32_ppc$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-ppc-linux-glibc2.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_64_ppc</name>
-    <note>Pivotal Web Server 5.3.2 - Linux - PowerPC (64 bit) Development Files</note>
+    <note>Pivotal Web Server 5.3.3 - Linux - PowerPC (64 bit) Development Files</note>
     <from>^/wsvr_devel_64_ppc$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-ppc64-linux-glibc2.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_32_solaris_sparc</name>
-    <note>Pivotal Web Server 5.3.2 - Solaris 10 - SPARC (32 bit) Development Files</note>
+    <note>Pivotal Web Server 5.3.3 - Solaris 10 - SPARC (32 bit) Development Files</note>
     <from>^/wsvr_devel_32_solaris_sparc$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-sparc-sun-solaris-10.x.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_64_solaris_sparc</name>
-    <note>Pivotal Web Server 5.3.2 - Solaris 10 - SPARC (64 bit) Development Files</note>
+    <note>Pivotal Web Server 5.3.3 - Solaris 10 - SPARC (64 bit) Development Files</note>
     <from>^/wsvr_devel_64_solaris_sparc$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-sparcv9-sun-solaris-10.x.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_32_solaris_intel</name>
-    <note>Pivotal Web Server 5.3.2 - Solaris 10 - Intel (32 bit) Development Files</note>
+    <note>Pivotal Web Server 5.3.3 - Solaris 10 - Intel (32 bit) Development Files</note>
     <from>^/wsvr_devel_32_solaris_intel$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x86-solaris-10.x.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_64_solaris_intel</name>
-    <note>Pivotal Web Server 5.3.2 - Solaris 10 - Intel (64 bit) Development Files</note>
+    <note>Pivotal Web Server 5.3.3 - Solaris 10 - Intel (64 bit) Development Files</note>
     <from>^/wsvr_devel_64_solaris_intel$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1-x86_64-solaris-10.x.zip.sfx</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_32_intel_rpm</name>
-    <note>vFabric Web Server 5.3.2 RPM - Intel (32 bit) Development Files</note>
+    <note>vFabric Web Server 5.3.3 RPM - Intel (32 bit) Development Files</note>
     <from>^/wsvr_devel_32_intel_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1.i686.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_64_intel_rpm</name>
-    <note>vFabric Web Server 5.3.2 RPM - Intel (64 bit) Development Files</note>
+    <note>vFabric Web Server 5.3.3 RPM - Intel (64 bit) Development Files</note>
     <from>^/wsvr_devel_64_intel_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1.x86_64.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_32_ppc_rpm</name>
-    <note>vFabric Web Server 5.3.2 RPM - PowerPC (32 bit) Development Files</note>
+    <note>vFabric Web Server 5.3.3 RPM - PowerPC (32 bit) Development Files</note>
     <from>^/wsvr_devel_32_ppc_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1.ppc.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_devel_64_ppc_rpm</name>
-    <note>vFabric Web Server 5.3.2 RPM - PowerPC (64 bit) Development Files</note>
+    <note>vFabric Web Server 5.3.3 RPM - PowerPC (64 bit) Development Files</note>
     <from>^/wsvr_devel_64_ppc_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/vfabric-web-server-devel-5.3.2-1.ppc64.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_tp_osl</name>
-    <note>Pivotal Web Server 5.3.2 Open Source Licenses</note>
+    <note>Pivotal Web Server 5.3.3 Open Source Licenses</note>
     <from>^/wsvr_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/open_source_licenses-vfabric-web-server-5.3.2.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <rule>
     <name>wsvr_tp_code</name>
-    <note>Pivotal Web Server 5.3.2 Open Source Code</note>
+    <note>Pivotal Web Server 5.3.3 Open Source Code</note>
     <from>^/wsvr_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.2/open_source_tarball-vfabric-web-server-5.3.2.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/webserver/5.3.3/</to>
   </rule>
   <!-- END: webserver -->
   <!-- BEGIN: index.html -->
