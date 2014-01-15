@@ -300,37 +300,37 @@
     <name>gfxd_nonicm</name>
     <note>Pivotal GemFire XD for Pivotal HD for non ICM installations</note>
     <from>^/gfxd_nonicm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/PRTS-1.0.0-8-bin.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-Beta2/PRTS-1.0.0-9-bin.tar.gz</to>
   </rule>
   <rule>
     <name>gfxd_icm</name>
     <note>Pivotal GemFire XD for Pivotal HD for use with ICM</note>
     <from>^/gfxd_icm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/PRTS-1.0.0-8.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-Beta2/PRTS-1.0.0-9.tar.gz</to>
   </rule>
   <rule>
     <name>gfxd_odbc_targz</name>
     <note>Pivotal GemFire XD ODBC driver (tar.gz)</note>
     <from>^/gfxd_odbc_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/Pivotal_GemFireXD_05Beta_b44310_ODBC.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-Beta2/Pivotal_GemFireXD_05Beta2_b44694_ODBC.tar.gz</to>
   </rule>
   <rule>
     <name>gfxd_odbc_zip</name>
     <note>Pivotal GemFire XD ODBC driver (zip)</note>
     <from>^/gfxd_odbc_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/Pivotal_GemFireXD_05Beta_b44310_ODBC.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-Beta2/Pivotal_GemFireXD_05Beta2_b44694_ODBC.zip</to>
   </rule>
   <rule>
     <name>gfxd_tp_osl</name>
     <note>Pivotal GemFire XD Open Source Licenses</note>
     <from>^/gfxd_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/open_source_licenses-Pivotal_GemFireXD_0.5.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-Beta2/open_source_licenses-Pivotal_GemFireXD_0.5.txt</to>
   </rule>
   <rule>
     <name>gfxd_tp_code</name>
     <note>Pivotal GemFire XD Open Source Code</note>
     <from>^/gfxd_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-beta/Pivotal_GemFireXD_05Beta_b44310_OSS.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfirexd/0.5-Beta2/Pivotal_GemFireXD_05Beta2_b44694_OSS.zip</to>
   </rule>
   <!-- END: gemfirexd -->
   <!-- BEGIN: gpdb -->
@@ -397,150 +397,152 @@
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/gpdb-ce/connectivity-tools/4.2.1/4.2.1.0 Windows GP Connectivity Tools.zip</to>
   </rule>
   <!-- END: gpdb_con -->
+  <!-- BEGIN: hawq -->
+  <rule>
+    <name>hawq_tgz</name>
+    <note>HAWQ</note>
+    <from>^/hawq_tgz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/hawq/1.1.3/PADS-1.1.3-31.tar.gz</to>
+  </rule>
+  <!-- END: hawq -->
   <!-- BEGIN: hyperic -->
-  <rule>
-    <name>hq_svr_agent_nojre_targz</name>
-    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
-    <from>^/hq_svr_agent_nojre_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
-  </rule>
-  <rule>
-    <name>hq_svr_agent_nojre_zip</name>
-    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
-    <from>^/hq_svr_agent_nojre_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
-  </rule>
-  <rule>
-    <name>hq_svr_agent_targz</name>
-    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - Linux (64 bit)</note>
-    <from>^/hq_svr_agent_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
-  </rule>
   <rule>
     <name>hq_svr_agent_zip</name>
     <note>VMware vFabric Hyperic 5.8.0 Server and Agent - Windows (64 bit)</note>
     <from>^/hq_svr_agent_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/hyperic-hqee-installer-x86-64-win-5.8.0.zip</to>
   </rule>
   <rule>
     <name>hq_svr_agent_exe</name>
     <note>VMware vFabric Hyperic 5.8.0 Server - Windows installer (64 bit)</note>
     <from>^/hq_svr_agent_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-hyperic-hqee-server-5.8.0.exe</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_targz</name>
+    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - Linux (64 bit)</note>
+    <from>^/hq_svr_agent_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/hyperic-hqee-installer-x86-64-linux-5.8.0.tar.gz</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_nojre_zip</name>
+    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
+    <from>^/hq_svr_agent_nojre_zip$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/hyperic-hqee-installer-noJRE-zip-5.8.0.zip</to>
+  </rule>
+  <rule>
+    <name>hq_svr_agent_nojre_targz</name>
+    <note>VMware vFabric Hyperic 5.8.0 Server and Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
+    <from>^/hq_svr_agent_nojre_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/hyperic-hqee-installer-noJRE-tar-5.8.0.tar.gz</to>
   </rule>
   <rule>
     <name>hq_svr_agent_ee_ova</name>
     <note>VMware vFabric Hyperic 5.8.0 Server and Agent - OVA file</note>
     <from>^/hq_svr_agent_ee_ova$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-hyperic-5.8.0-EE.ova</to>
   </rule>
   <rule>
     <name>hq_svr_agent_ee_ovf</name>
     <note>VMware vFabric Hyperic 5.8.0 Server installation - OVF file</note>
     <from>^/hq_svr_agent_ee_ovf$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-hyperic-server-5.8.0-EE_OVF10.ovf</to>
   </rule>
   <rule>
     <name>hq_svr_agent_ee_mf</name>
     <note>VMware vFabric Hyperic 5.8.0 Server installation - MF file</note>
     <from>^/hq_svr_agent_ee_mf$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-hyperic-server-5.8.0-EE_OVF10.mf</to>
   </rule>
   <rule>
     <name>hq_svr_agent_ee_vmdk</name>
     <note>VMware vFabric Hyperic 5.8.0 Server installation - VMDK file</note>
     <from>^/hq_svr_agent_ee_vmdk$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-hyperic-server-5.8.0-EE.vmdk</to>
   </rule>
   <rule>
     <name>hq_svr_agent_ee_rpm</name>
     <note>VMware vFabric Hyperic 5.8.0 Server and Agent - RPM (64 bit)</note>
     <from>^/hq_svr_agent_ee_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-hyperic-server-5.8.0.EE-1.x86_64.rpm</to>
   </rule>
   <rule>
     <name>hq_svr_agent_db_mf</name>
     <note>VMware vFabric Hyperic 5.8.0 DB installation - MF file</note>
     <from>^/hq_svr_agent_db_mf$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-hyperic-DB-5.8.0-EE_OVF10.mf</to>
   </rule>
   <rule>
     <name>hq_svr_agent_db_ovf</name>
     <note>VMware vFabric Hyperic 5.8.0 DB installation - OVF file</note>
     <from>^/hq_svr_agent_db_ovf$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-hyperic-DB-5.8.0-EE_OVF10.ovf</to>
   </rule>
   <rule>
     <name>hq_svr_agent_db_vmdk</name>
     <note>VMware vFabric Hyperic 5.8.0 DB installation - VMDK file</note>
     <from>^/hq_svr_agent_db_vmdk$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
-  </rule>
-  <rule>
-    <name>hq_agent_nojre_targz</name>
-    <note>VMware vFabric Hyperic 5.8.0 Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
-    <from>^/hq_agent_nojre_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-hyperic-DB-5.8.0-EE.vmdk</to>
   </rule>
   <rule>
     <name>hq_agent_nojre_zip</name>
     <note>VMware vFabric Hyperic 5.8.0 Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
     <from>^/hq_agent_nojre_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/hyperic-hqee-agent-noJRE-5.8.0.zip</to>
   </rule>
   <rule>
-    <name>hq_agent_32_linux</name>
-    <note>VMware vFabric Hyperic 5.8.0 Agent - Linux (32 bit)</note>
-    <from>^/hq_agent_32_linux$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
-  </rule>
-  <rule>
-    <name>hq_agent_64_linux</name>
-    <note>VMware vFabric Hyperic 5.8.0 Agent - Linux (64 bit)</note>
-    <from>^/hq_agent_64_linux$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
-  </rule>
-  <rule>
-    <name>hq_agent_rpm</name>
-    <note>VMware vFabric Hyperic 5.8.0 Agent - RPM (32 or 64 bit)</note>
-    <from>^/hq_agent_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <name>hq_agent_nojre_targz</name>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - Platform Independent (32 or 64 bit) No bundled JRE or database</note>
+    <from>^/hq_agent_nojre_targz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/hyperic-hqee-agent-noJRE-5.8.0.tar.gz</to>
   </rule>
   <rule>
     <name>hq_agent_32_win</name>
     <note>VMware vFabric Hyperic 5.8.0 Agent - Windows (32 bit)</note>
     <from>^/hq_agent_32_win$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/hyperic-hqee-agent-win32-5.8.0.zip</to>
   </rule>
   <rule>
     <name>hq_agent_64_win</name>
     <note>VMware vFabric Hyperic 5.8.0 Agent - Windows (64 bit)</note>
     <from>^/hq_agent_64_win$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/hyperic-hqee-installer-x86-64-win-5.8.0.zip</to>
   </rule>
   <rule>
     <name>hq_agent_win_exe</name>
     <note>VMware vFabric Hyperic 5.8.0 Agent - Windows installer (32 or 64 bit)</note>
     <from>^/hq_agent_win_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-hyperic-hqee-agent-5.8.0.exe</to>
   </rule>
   <rule>
-    <name>hq_agent_sparc_targz</name>
-    <note>VMware vFabric Hyperic 5.8.0 Agent - Solaris - SPARC (32 or 64 bit)</note>
-    <from>^/hq_agent_sparc_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <name>hq_agent_32_linux</name>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - Linux (32 bit)</note>
+    <from>^/hq_agent_32_linux$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/hyperic-hqee-agent-x86-linux-5.8.0.tar.gz</to>
+  </rule>
+  <rule>
+    <name>hq_agent_64_linux</name>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - Linux (64 bit)</note>
+    <from>^/hq_agent_64_linux$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/hyperic-hqee-agent-x86-64-linux-5.8.0.tar.gz</to>
+  </rule>
+  <rule>
+    <name>hq_agent_rpm</name>
+    <note>VMware vFabric Hyperic 5.8.0 Agent - RPM (32 or 64 bit)</note>
+    <from>^/hq_agent_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-hyperic-agent-5.8.0.EE-1.noarch.rpm</to>
   </rule>
   <rule>
     <name>hq_tp_osl</name>
     <note>VMware vFabric Hyperic 5.8.0 Open Source Licenses </note>
     <from>^/hq_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/open_source_license_hyperic_hq580GA_Enterprise_Edition.txt</to>
   </rule>
   <rule>
     <name>hq_tp_code</name>
     <note>VMware vFabric Hyperic 5.8.0 Open Source Code</note>
     <from>^/hq_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/hyperic/5.8.0/vCenter-Hyperic-5.8.0-OSS.tgz</to>
   </rule>
   <!-- END: hyperic -->
   <!-- BEGIN: licenseserver -->
@@ -657,46 +659,34 @@
   <!-- END: postgres -->
   <!-- BEGIN: pvtl_cf -->
   <rule>
-    <name>pvtl_cf_tar</name>
-    <note>Pivotal CF 1.0.0 Client for Linux</note>
-    <from>^/pvtl_cf_tar$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-1.0.0.tar</to>
-  </rule>
-  <rule>
     <name>pvtl_cf_exe</name>
-    <note>Pivotal CF 1.0.0 Client for Windows</note>
+    <note>Pivotal CF 1.0.0.0 Client for Windows</note>
     <from>^/pvtl_cf_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-1.0.0-client.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0.0/pivotal-cf-1.0.0.0-client.exe</to>
   </rule>
   <rule>
     <name>pvtl_cf_ova</name>
-    <note>Pivotal CF  1.0.0 Virtual Appliance</note>
+    <note>Pivotal CF  1.0.0.0 Virtual Appliance</note>
     <from>^/pvtl_cf_ova$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-1.0.0.ova</to>
-  </rule>
-  <rule>
-    <name>pvtl_cf_eclipse_tar</name>
-    <note>Pivotal CF 1.0.0 Plug-in for Eclipse</note>
-    <from>^/pvtl_cf_eclipse_tar$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-eclipse-1.0.0.tar</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0.0/pivotal-cf-1.0.0.0.ova</to>
   </rule>
   <rule>
     <name>pvtl_cf_gs_pdf</name>
-    <note>Pivotal CF 1.0.0 Getting Started Guide</note>
+    <note>Pivotal CF 1.0.0.0 Getting Started Guide</note>
     <from>^/pvtl_cf_gs_pdf$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-1.0.0-getting-started.pdf</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0.0/pivotal-cf-1.0.0.0-getting-started.pdf</to>
   </rule>
   <rule>
     <name>pvtl_cf_rn_txt</name>
-    <note>Pivotal CF 1.0.0 Release Notes</note>
+    <note>Pivotal CF 1.0.0.0 Release Notes</note>
     <from>^/pvtl_cf_rn_txt$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/pivotal-cf-1.0.0-release-notes.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0.0/pivotal-cf-1.0.0.0-release-notes.txt</to>
   </rule>
   <rule>
     <name>pvtl_cf_tp_osl</name>
     <note>Pivotal CF 1.0.0 Open Source Licenses</note>
     <from>^/pvtl_cf_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0/open_source_licenses_PVTL_CF_100.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-cf/1.0.0.0/open_source_licenses_PVTL_CF_100.zip</to>
   </rule>
   <!-- END: pvtl_cf -->
   <!-- BEGIN: pvtl_cf_ax -->
@@ -721,6 +711,28 @@
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-one/pivotal-rmq/1.0.0.0/p-rabbitmq.zip</to>
   </rule>
   <!-- END: pvtl_cf_rmq -->
+  <!-- BEGIN: pvtl_hd -->
+  <rule>
+    <name>pvtl_hd_vm_sn</name>
+    <note>Pivotal HD 1.1.1 Single Node VM</note>
+    <from>^/pvtl_hd_vm_sn$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-hd/1.1.1/PIVHDSNE111_VMWARE_VM.7z</to>
+  </rule>
+  <rule>
+    <name>pvtl_hd_tp_osl</name>
+    <note>Pivotal HD 1.1.1 Open Source Licenses</note>
+    <from>^/pvtl_hd_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-hd/1.1.1/PivotalHD111_OSL.txt</to>
+  </rule>
+  <!-- END: pvtl_hd -->
+  <!-- BEGIN: pvtl_hd_ce -->
+  <rule>
+    <name>pvtl_hd_ce_tgz</name>
+    <note>Pivotal HD 1.1 Community Edition</note>
+    <from>^/pvtl_hd_ce_tgz$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/pivotal-hd/1.1.0/pivotalhd_community_1.1.tar.gz</to>
+  </rule>
+  <!-- END: pvtl_hd_ce -->
   <!-- BEGIN: rabbitmq -->
   <rule>
     <name>rmq_svr_exe</name>
