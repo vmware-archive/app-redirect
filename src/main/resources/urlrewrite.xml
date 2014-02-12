@@ -182,117 +182,129 @@
   <!-- BEGIN: gemfire -->
   <rule>
     <name>gemf_zip</name>
-    <note>Pivotal GemFire 7.0.1 Distribution</note>
+    <note>Pivotal GemFire 7.0.2 Distribution</note>
     <from>^/gemf_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_701_b40235.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_702_b45714.zip</to>
   </rule>
   <rule>
     <name>gemf_el5_rpm</name>
-    <note>Pivotal GemFire 7.0.1 RPM for RHEL 5 (32 or 64 bit)</note>
+    <note>Pivotal GemFire 7.0.2 RPM for RHEL 5 (32 or 64 bit)</note>
     <from>^/gemf_el5_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vfabric-gemfire-7.0.1-2.el5.noarch.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/pivotal-gemfire-7.0.2-1.el5.noarch.rpm</to>
   </rule>
   <rule>
     <name>gemf_el6_rpm</name>
-    <note>Pivotal GemFire 7.0.1 RPM for RHEL 6 (32 or 64 bit)</note>
+    <note>Pivotal GemFire 7.0.2 RPM for RHEL 6 (32 or 64 bit)</note>
     <from>^/gemf_el6_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vfabric-gemfire-7.0.1-2.el6.noarch.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/pivotal-gemfire-7.0.2-1.el6.noarch.rpm</to>
   </rule>
   <rule>
-    <name>gemf_tp_osl</name>
-    <note>Pivotal GemFire 7.0.1 Open Source Licenses</note>
-    <from>^/gemf_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_7.0.1.txt</to>
-  </rule>
-  <rule>
-    <name>gemf_tp_code</name>
-    <note>Pivotal GemFire 7.0.1 Open Source Code</note>
-    <from>^/gemf_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_701_b40235_OSS.zip</to>
-  </rule>
-  <rule>
-    <name>gemf_db_tp_osl</name>
-    <note>Pivotal GemFire DataBrowser 7.0.1 Open Source Licenses</note>
-    <from>^/gemf_db_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_DataBrowser_7.0.1.txt</to>
-  </rule>
-  <rule>
-    <name>gemf_db_tp_code</name>
-    <note>Pivotal GemFire DataBrowser 7.0.1 Open Source Code</note>
-    <from>^/gemf_db_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_tarball-GFDataBrowser7.0.1.tar.gz</to>
-  </rule>
-  <rule>
-    <name>gemf_mod_tp_osl</name>
-    <note>Pivotal GemFire Modules 7.0.1 Open Source Licenses</note>
-    <from>^/gemf_mod_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_Modules_7.0.1.txt</to>
-  </rule>
-  <rule>
-    <name>gemf_mod_tp_code</name>
-    <note>Pivotal GemFire Modules 7.0.1 Open Source Code</note>
-    <from>^/gemf_mod_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_tarball-GFModules7.0.1.tar.gz</to>
-  </rule>
-  <rule>
-    <name>gemf_pulse_tp_osl</name>
-    <note>Pivotal GemFire Pulse 7.0.1 Open Source Licenses</note>
-    <from>^/gemf_pulse_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_Pulse_7.0.1.txt</to>
-  </rule>
-  <rule>
-    <name>gemf_pulse_tp_code</name>
-    <note>Pivotal GemFire Pulse 7.0.1 Open Source Code</note>
-    <from>^/gemf_pulse_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_tarball-GFPulse7.0.1.tar.gz</to>
+    <name>gemf_deb</name>
+    <note>Pivotal GemFire 7.0.2 Distribution for Debian</note>
+    <from>^/gemf_deb$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/pivotal-gemfire_7.0.2-1_all.deb</to>
   </rule>
   <rule>
     <name>gemf_nc_win_32</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Windows (32 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.2 - Windows (32 bit)</note>
     <from>^/gemf_nc_win_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_32bit_7010_b5886.msi</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_NativeClient_32bit_7020_b6036.msi</to>
   </rule>
   <rule>
     <name>gemf_nc_win_64</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Windows (64 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.2 - Windows (64 bit)</note>
     <from>^/gemf_nc_win_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_64bit_7010_b5886.msi</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_NativeClient_64bit_7020_b6036.msi</to>
   </rule>
   <rule>
     <name>gemf_nc_linux_32</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Linux (32 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.2 - Linux (32 bit)</note>
     <from>^/gemf_nc_linux_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_32bit_7010_b5886.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_NativeClient_Linux_32bit_7020_b6036.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_linux_64</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Linux (64 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.2 - Linux (64 bit)</note>
     <from>^/gemf_nc_linux_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Linux_64bit_7010_b5886.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_NativeClient_Linux_64bit_7020_b6036.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_solaris_32</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Solaris (32 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.2 - Solaris (32 bit)</note>
     <from>^/gemf_nc_solaris_32$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_32bit_7010_b5886.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_NativeClient_Solaris_32bit_7020_b6036.zip</to>
   </rule>
   <rule>
     <name>gemf_nc_solaris_64</name>
-    <note>Pivotal GemFire Native Client 7.0.1 - Solaris (64 bit)</note>
+    <note>Pivotal GemFire Native Client 7.0.2 - Solaris (64 bit)</note>
     <from>^/gemf_nc_solaris_64$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/vFabric_GemFire_NativeClient_Solaris_64bit_7010_b5886.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_NativeClient_Solaris_64bit_7020_b6036.zip</to>
+  </rule>
+  <rule>
+    <name>gemf_vf_lic</name>
+    <note>Pivotal Gemfire Heritage VMware Licenses</note>
+    <from>^/gemf_vf_lic$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/VMware_vFabric_GemFire_License.txt</to>
+  </rule>
+  <rule>
+    <name>gemf_tp_osl</name>
+    <note>Pivotal GemFire 7.0.2 Open Source Licenses</note>
+    <from>^/gemf_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/open_source_licenses-Pivotal_GemFire_7.0.2.txt</to>
+  </rule>
+  <rule>
+    <name>gemf_tp_code</name>
+    <note>Pivotal GemFire 7.0.2 Open Source Code</note>
+    <from>^/gemf_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_702_b45714_OSS.zip</to>
+  </rule>
+  <rule>
+    <name>gemf_db_tp_osl</name>
+    <note>Pivotal GemFire DataBrowser 7.0.2 Open Source Licenses</note>
+    <from>^/gemf_db_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/open_source_licenses-Pivotal_GemFire_DataBrowser_7.0.2.txt</to>
+  </rule>
+  <rule>
+    <name>gemf_db_tp_code</name>
+    <note>Pivotal GemFire DataBrowser 7.0.2 Open Source Code</note>
+    <from>^/gemf_db_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/open_source_tarball-GFDataBrowser7.0.2.tar.gz</to>
+  </rule>
+  <rule>
+    <name>gemf_mod_tp_osl</name>
+    <note>Pivotal GemFire Modules 7.0.2 Open Source Licenses</note>
+    <from>^/gemf_mod_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/open_source_licenses-Pivotal_GemFire_Modules_7.0.2.txt</to>
+  </rule>
+  <rule>
+    <name>gemf_mod_tp_code</name>
+    <note>Pivotal GemFire Modules 7.0.2 Open Source Code</note>
+    <from>^/gemf_mod_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/open_source_tarball-GFModules7.0.2.tar.gz</to>
+  </rule>
+  <rule>
+    <name>gemf_pulse_tp_osl</name>
+    <note>Pivotal GemFire Pulse 7.0.2 Open Source Licenses</note>
+    <from>^/gemf_pulse_tp_osl$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/open_source_licenses-Pivotal_GemFire_Pulse_7.0.2.txt</to>
+  </rule>
+  <rule>
+    <name>gemf_pulse_tp_code</name>
+    <note>Pivotal GemFire Pulse 7.0.2 Open Source Code</note>
+    <from>^/gemf_pulse_tp_code$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/open_source_tarball-GFPulse7.0.2.tar.gz</to>
   </rule>
   <rule>
     <name>gemf_nc_tp_osl</name>
-    <note>Pivotal GemFire Native Client 7.0.1 Open Source Licenses</note>
+    <note>Pivotal GemFire Native Client 7.0.2 Open Source Licenses</note>
     <from>^/gemf_nc_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_licenses-VMware_vFabric_GemFire_Native_Client_7.0.1.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/open_source_licenses-Pivotal_GemFire_NativeClient_7.0.2.txt</to>
   </rule>
   <rule>
     <name>gemf_nc_tp_code</name>
-    <note>Pivotal GemFire Native Client 7.0.1 Open Source Code</note>
+    <note>Pivotal GemFire Native Client 7.0.2 Open Source Code</note>
     <from>^/gemf_nc_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.1/open_source_tarball-GF_NativeClient-7.0.1.0.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/open_source_tarball-GF_NativeClient-7.0.2.0.tar.gz</to>
   </rule>
   <!-- END: gemfire -->
   <!-- BEGIN: gemfirexd -->
@@ -880,33 +892,39 @@
   <!-- BEGIN: sqlfire -->
   <rule>
     <name>sqlf_zip</name>
-    <note>Pivotal SQLFire 1.1.1 Distribution</note>
+    <note>Pivotal SQLFire 1.1.2 Distribution</note>
     <from>^/sqlf_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vFabric_SQLFire_111_b42624.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.2/Pivotal_SQLFire_112_b45732.zip</to>
   </rule>
   <rule>
     <name>sqlf_el5_rpm</name>
-    <note>Pivotal SQLFire 1.1.1 RPM for RHEL 5 (32 or 64 bit)</note>
+    <note>Pivotal SQLFire 1.1.2 RPM for RHEL 5 (32 or 64 bit)</note>
     <from>^/sqlf_el5_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vfabric-sqlfire-1.1.1-1.el5.noarch.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.2/pivotal-sqlfire-1.1.2-1.el5.noarch.rpm</to>
   </rule>
   <rule>
     <name>sqlf_el6_rpm</name>
-    <note>Pivotal SQLFire 1.1.1 RPM for RHEL 6 (32 or 64 bit)</note>
+    <note>Pivotal SQLFire 1.1.2 RPM for RHEL 6 (32 or 64 bit)</note>
     <from>^/sqlf_el6_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vfabric-sqlfire-1.1.1-1.el6.noarch.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.2/pivotal-sqlfire_1.1.2-1.el6.noarch.rpm</to>
+  </rule>
+  <rule>
+    <name>sqlf_deb</name>
+    <note>Pivotal SQLFire 1.1.2 Distribution for Debian</note>
+    <from>^/sqlf_deb$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.2/pivotal-sqlfire-1.1.2-1_all.deb</to>
   </rule>
   <rule>
     <name>sqlf_tp_osl</name>
-    <note>Pivotal SQLFire 1.1.1 Open Source Licenses</note>
+    <note>Pivotal SQLFire 1.1.2 Open Source Licenses</note>
     <from>^/sqlf_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/open_source_licenses-VMware_vFabric_SQLFire_1.1.1.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.2/open_source_licenses-Pivotal_SQLFire_1.1.2.txt</to>
   </rule>
   <rule>
     <name>sqlf_tp_code</name>
-    <note>Pivotal SQLFire 1.1.1 Open Source Code</note>
+    <note>Pivotal SQLFire 1.1.2 Open Source Code</note>
     <from>^/sqlf_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.1/vFabric_SQLFire_111_b42624_OSS.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.2/Pivotal_SQLFire_112_b45732_OSS.zip</to>
   </rule>
   <!-- END: sqlfire -->
   <!-- BEGIN: tcserver -->
