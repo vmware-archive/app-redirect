@@ -184,7 +184,7 @@
     <name>gemf_zip</name>
     <note>Pivotal GemFire 7.0.2 Distribution</note>
     <from>^/gemf_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_702_b45714.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_702_b45797.zip</to>
   </rule>
   <rule>
     <name>gemf_el5_rpm</name>
@@ -256,7 +256,7 @@
     <name>gemf_tp_code</name>
     <note>Pivotal GemFire 7.0.2 Open Source Code</note>
     <from>^/gemf_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_702_b45714_OSS.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/Pivotal_GemFire_702_b45797_OSS.zip</to>
   </rule>
   <rule>
     <name>gemf_db_tp_osl</name>
@@ -906,13 +906,13 @@
     <name>sqlf_el6_rpm</name>
     <note>Pivotal SQLFire 1.1.2 RPM for RHEL 6 (32 or 64 bit)</note>
     <from>^/sqlf_el6_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.2/pivotal-sqlfire_1.1.2-1.el6.noarch.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.2/pivotal-sqlfire-1.1.2-1.el6.noarch.rpm</to>
   </rule>
   <rule>
     <name>sqlf_deb</name>
     <note>Pivotal SQLFire 1.1.2 Distribution for Debian</note>
     <from>^/sqlf_deb$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.2/pivotal-sqlfire-1.1.2-1_all.deb</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/sqlfire/1.1.2/pivotal-sqlfire_1.1.2-1_all.deb</to>
   </rule>
   <rule>
     <name>sqlf_tp_osl</name>
