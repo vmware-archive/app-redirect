@@ -968,7 +968,7 @@
     <name>tcs_std_rpm</name>
     <note>Pivotal tc Server 2.9.5.SR1 Standard Edition Runtime (rpm)</note>
     <from>^/tcs_std_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.5/vfabric-tc-server-standard-2.9.5.SR1.noarch.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/tcserver/2.9.5/vfabric-tc-server-standard-2.9.5-SR1.noarch.rpm</to>
   </rule>
   <rule>
     <name>tcs_std_tp_osl</name>
