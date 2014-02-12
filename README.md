@@ -3,12 +3,16 @@ It uses [UrlRewriteFilter](https://code.google.com/p/urlrewritefilter) for redir
 
 Usage:
 
-> git clone git@github.com:pivotal/app-redirect.git
-> cd app-redirect
+```
+git clone git@github.com:pivotal/app-redirect.git
+cd app-redirect
+```
 
-make changes in src/main/resources/urlrewrite.xml
+> make changes in src/main/resources/urlrewrite.xml
 
-> ./gradlew clean build
-> cd scripts
-> cf login
-> ./deploy-blue-green.sh production
+```
+./gradlew clean build
+cd scripts
+cf login
+./deploy-blue-green.sh production
+```
