@@ -748,113 +748,107 @@
   <!-- BEGIN: rabbitmq -->
   <rule>
     <name>rmq_svr_exe</name>
-    <note>Pivotal RabbitMQ 3.2.2 Server for Windows</note>
+    <note>Pivotal RabbitMQ 3.2.3 Server for Windows</note>
     <from>^/rmq_svr_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/vfabric-rabbitmq-server-3.2.2.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.3/pivotal-rabbitmq-server-3.2.3.exe</to>
   </rule>
   <rule>
     <name>rmq_svr_targz</name>
-    <note>Pivotal RabbitMQ 3.2.2 Server for Linux</note>
+    <note>Pivotal RabbitMQ 3.2.3 Server for Linux</note>
     <from>^/rmq_svr_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/vfabric-rabbitmq-server-3.2.2.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.3/pivotal-rabbitmq-server-3.2.3.tar.gz</to>
   </rule>
   <rule>
-    <name>rmq_svr_32_rpm</name>
-    <note>Pivotal RabbitMQ 3.2.2 Server RPM for Linux (32 bit)</note>
-    <from>^/rmq_svr_32_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/vfabric-rabbitmq-server-3.2.2-3.i686.rpm</to>
-  </rule>
-  <rule>
-    <name>rmq_svr_64_rpm</name>
-    <note>Pivotal RabbitMQ 3.2.2 Server RPM for Linux (64 bit)</note>
-    <from>^/rmq_svr_64_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/vfabric-rabbitmq-server-3.2.2-3.x86_64.rpm</to>
+    <name>rmq_svr_noarch_rpm</name>
+    <note>Pivotal RabbitMQ 3.2.3 Server RPM for Linux</note>
+    <from>^/rmq_svr_noarch_rpm$</from>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.3/pivotal-rabbitmq-server-3.2.3-3.noarch.rpm</to>
   </rule>
   <rule>
     <name>rmq_svr_64_deb</name>
-    <note>Pivotal RabbitMQ 3.2.2 Server package for Debian Linux (64 bit)</note>
+    <note>Pivotal RabbitMQ 3.2.3 Server package for Debian Linux (64 bit)</note>
     <from>^/rmq_svr_64_deb$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/vfabric-rabbitmq-java-client-bin_3.2.2-1_all.deb</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.3/pivotal-rabbitmq-server_3.2.3-1_amd64.deb</to>
   </rule>
   <rule>
     <name>rmq_java_exe</name>
-    <note>Pivotal RabbitMQ 3.2.2 Java Client for Windows</note>
+    <note>Pivotal RabbitMQ 3.2.3 Java Client for Windows</note>
     <from>^/rmq_java_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/vfabric-rabbitmq-java-client-3.2.2.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.3/pivotal-rabbitmq-java-client-3.2.3.exe</to>
   </rule>
   <rule>
     <name>rmq_java_targz</name>
-    <note>Pivotal RabbitMQ 3.2.2 Java Client for Linux</note>
+    <note>Pivotal RabbitMQ 3.2.3 Java Client for Linux</note>
     <from>^/rmq_java_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/vfabric-rabbitmq-java-client-bin-3.2.2.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.3/pivotal-rabbitmq-java-client-bin-3.2.3.tar.gz</to>
   </rule>
   <rule>
     <name>rmq_java_rpm</name>
-    <note>Pivotal RabbitMQ 3.2.2 Java Client RPM for Linux</note>
+    <note>Pivotal RabbitMQ 3.2.3 Java Client RPM for Linux</note>
     <from>^/rmq_java_rpm$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/vfabric-rabbitmq-java-client-bin-3.2.2-3.noarch.rpm</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.3/pivotal-rabbitmq-java-client-bin-3.2.3-3.noarch.rpm</to>
   </rule>
   <rule>
     <name>rmq_java_deb</name>
-    <note>Pivotal RabbitMQ 3.2.2 Java Client package for Debian Linux</note>
+    <note>Pivotal RabbitMQ 3.2.3 Java Client package for Debian Linux</note>
     <from>^/rmq_java_deb$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/vfabric-rabbitmq-java-client-bin_3.2.2-1_all.deb</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.3/pivotal-rabbitmq-java-client-bin_3.2.3-1_all.deb</to>
   </rule>
   <rule>
     <name>rmq_dotnet_exe</name>
-    <note>Pivotal RabbitMQ 3.2.2 .NET Client for Windows</note>
+    <note>Pivotal RabbitMQ 3.2.3 .NET Client for Windows</note>
     <from>^/rmq_dotnet_exe$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/vfabric-rabbitmq-dotnet-client-3.2.2.exe</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.3/pivotal-rabbitmq-dotnet-client-3.2.3.exe</to>
   </rule>
   <rule>
     <name>rmq_tp_osl</name>
-    <note>Pivotal RabbitMQ 3.2.2 Open Source Licenses</note>
+    <note>Pivotal RabbitMQ 3.2.3 Open Source Licenses</note>
     <from>^/rmq_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/RabbitMQ_3.2.2_OSL.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.3/RabbitMQ_3.2.3_OSL.txt</to>
   </rule>
   <rule>
     <name>rmq_tp_code</name>
-    <note>Pivotal RabbitMQ 3.2.2 Open Source Code</note>
+    <note>Pivotal RabbitMQ 3.2.3 Open Source Code</note>
     <from>^/rmq_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.2/open_source_tarball-vF-RabMQ-3.2-FINAL.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq/3.2.3/open_source_tarball-pivotal-rabbitmq-3.2.3.zip</to>
   </rule>
   <!-- END: rabbitmq -->
   <!-- BEGIN: rjms -->
   <rule>
     <name>rjms_client_targz</name>
-    <note>JMS client and server plug-in 1.1.2 for Pivotal RabbitMQ 3.2.2 (tar.gz)</note>
+    <note>JMS client and server plug-in 1.1.3 for Pivotal RabbitMQ 3.2.3 (tar.gz)</note>
     <from>^/rjms_client_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/rabbitmq-jms-package-1.1.2-client-and-plugin.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.3/rabbitmq-jms-package-1.1.3-client-and-plugin.tar.gz</to>
   </rule>
   <rule>
     <name>rjms_client_zip</name>
-    <note>JMS client and server plug-in 1.1.2 for Pivotal RabbitMQ 3.2.2 (zip)</note>
+    <note>JMS client and server plug-in 1.1.3 for Pivotal RabbitMQ 3.2.3 (zip)</note>
     <from>^/rjms_client_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/rabbitmq-jms-package-1.1.2-client-and-plugin.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.3/rabbitmq-jms-package-1.1.3-client-and-plugin.zip</to>
   </rule>
   <rule>
     <name>rjms_refapp_targz</name>
-    <note>JMS reference application 1.1.2 for Pivotal RabbitMQ 3.2.2 (tar.gz)</note>
+    <note>JMS reference application 1.1.3 for Pivotal RabbitMQ 3.2.3 (tar.gz)</note>
     <from>^/rjms_refapp_targz$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/rabbitmq-jms-package-1.1.2-reference-app.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.3/rabbitmq-jms-package-1.1.3-reference-app.tar.gz</to>
   </rule>
   <rule>
     <name>rjms_refapp_zip</name>
-    <note>JMS reference application 1.1.2 for Pivotal RabbitMQ 3.2.2 (zip)</note>
+    <note>JMS reference application 1.1.3 for Pivotal RabbitMQ 3.2.3 (zip)</note>
     <from>^/rjms_refapp_zip$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/rabbitmq-jms-package-1.1.2-reference-app.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.3/rabbitmq-jms-package-1.1.3-reference-app.zip</to>
   </rule>
   <rule>
     <name>rjms_tp_osl</name>
-    <note>JMS client 1.1.2 for Pivotal RabbitMQ 3.2.2 Open Source Licenses</note>
+    <note>JMS client 1.1.3 for Pivotal RabbitMQ 3.2.3 Open Source Licenses</note>
     <from>^/rjms_tp_osl$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/open_source_licenses-Rabbit-JMS-1.1.2.txt</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.3/open_source_licenses-Rabbit-JMS-1.1.3.txt</to>
   </rule>
   <rule>
     <name>rjms_tp_code</name>
-    <note>JMS client 1.1.2 for Pivotal RabbitMQ 3.2.2 Open Source Code</note>
+    <note>JMS client 1.1.3 for Pivotal RabbitMQ 3.2.3 Open Source Code</note>
     <from>^/rjms_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.2/rabbitmq-jms-client-1.1.2-oss.zip</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/rabbitmq-jms/1.1.3/rabbitmq-jms-client-1.1.3-oss.zip</to>
   </rule>
   <!-- END: rjms -->
   <!-- BEGIN: springinsight -->
