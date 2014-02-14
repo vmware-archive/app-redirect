@@ -280,7 +280,7 @@
     <name>gemf_mod_tp_code</name>
     <note>Pivotal GemFire Modules 7.0.2 Open Source Code</note>
     <from>^/gemf_mod_tp_code$</from>
-    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/open_source_tarball-GFModules7.0.2.tar.gz</to>
+    <to type="temporary-redirect" last="true">http://download.gopivotal.com/gemfire/7.0.2/open_source_tarball-GemFire_Modules7.0.2.tar.gz</to>
   </rule>
   <rule>
     <name>gemf_pulse_tp_osl</name>
