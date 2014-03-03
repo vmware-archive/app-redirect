@@ -77,6 +77,44 @@
     <to type="temporary-redirect" last="true">http://download.gopivotal.com/vfabric-suite/app-director/5.0.1/VMware_vFabric_Application_Director_5.0_CentOS_5.7_Templates_open_source.zip</to>
   </rule>
   <!-- END: appdirector -->
+  <!-- BEGIN: appsvapp -->
+  <rule>
+    <name>appsvapp_ovf_ovf</name>
+    <note>Pivotal App Suite Appliance OVF Distribution</note>
+    <from>^/appsvapp_ovf_ovf$</from>
+    <to type="temporary-redirect" last="true">http://packages-dev.gopivotal.com/pub/appliance/ovf/Pivotal_AppFabric_Appliance-1.0.1.3.ovf</to>
+  </rule>
+  <rule>
+    <name>appsvapp_ovf_mf</name>
+    <note>Pivotal App Suite Appliance manifest for OVF Distribution</note>
+    <from>^/appsvapp_ovf_mf$</from>
+    <to type="temporary-redirect" last="true">http://packages-dev.gopivotal.com/pub/appliance/ovf/Pivotal_AppFabric_Appliance-1.0.1.3.mf</to>
+  </rule>
+  <rule>
+    <name>appsvapp_ovf_vmdk</name>
+    <note>Pivotal App Suite Appliance VMDK for OVF Distribution</note>
+    <from>^/appsvapp_ovf_vmdk$</from>
+    <to type="temporary-redirect" last="true">http://packages-dev.gopivotal.com/pub/appliance/ovf/Pivotal_AppFabric_Appliance-1.0.1.3-disk1.vmdk</to>
+  </rule>
+  <rule>
+    <name>appsvapp_vmx_vmx</name>
+    <note>Pivotal App Suite Appliance VMX Distribution</note>
+    <from>^/appsvapp_vmx_vmx$</from>
+    <to type="temporary-redirect" last="true">http://packages-dev.gopivotal.com/pub/appliance/vmx/Pivotal_AppFabric_Appliance-1.0.1.3.vmx</to>
+  </rule>
+  <rule>
+    <name>appsvapp_vmx_vmdk</name>
+    <note>Pivotal App Suite Appliance VMDK for VMX Distribution</note>
+    <from>^/appsvapp_vmx_vmdk$</from>
+    <to type="temporary-redirect" last="true">http://packages-dev.gopivotal.com/pub/appliance/vmx/Pivotal_AppFabric_Appliance-1.0.1.3-disk1.vmdk</to>
+  </rule>
+  <rule>
+    <name>appsvapp_vmx_zip</name>
+    <note>Pivotal App Suite Appliance VMX Distribution (single archive)</note>
+    <from>^/appsvapp_vmx_zip$</from>
+    <to type="temporary-redirect" last="true">http://packages-dev.gopivotal.com/pub/appliance/vmx/Pivotal_AppFabric_Appliance-1.0.1.3-vmx.zip</to>
+  </rule>
+  <!-- END: appsvapp -->
   <!-- BEGIN: chorus -->
   <rule>
     <name>chorus_sh_el</name>
